@@ -1,0 +1,39 @@
+---
+import type { Resultado } from '@interfaces/courseInfo.interface'
+import Lista from './Lista.astro'
+
+interface Props {
+    props: Resultado
+}
+
+const {props} = Astro.props
+const listasObjet = props.listas.filter(el => typeof el === 'object' );
+const listas = props.listas.filter(el => typeof el === 'string' );
+
+// console.log(listas)
+
+---
+
+<div class="text-black py-5">
+    <h4 class="text-xl font-bold">{props.title}</h4>
+    <span>{props.resume}</span>
+    {listasObjet.map(el => (
+        <h4>{el.header}</h4>
+        <div class=" pl-4">{el.body?.map(lol => (
+            <li>{lol}</li>
+        ))}</div>
+    ))}
+{listas.map(el => (
+    <li>{el}</li>
+))}
+</div>
+
+
+<!-- {
+    listas.map(el => (
+        <li>{el}</li>
+    ))
+    // props.listas.map(lista => (
+    //     <Lista props={lista} />
+    // ))
+} -->

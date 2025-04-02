@@ -1,11 +1,53 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import CourseCards from "../components/courses/CourseCards.astro";
+import MainLayout from "../layouts/MainLayout.astro";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
-<Layout>
-	<Welcome />
-</Layout>
+<MainLayout title="Cursos gratis online" description="Aquí encontrarás una extensa lista de cursos subvencionados en el territorio de españa">
+	<h1 class="encabezado text-[25px] sm:text-[50px] md:text-[60px]">Cursos gratis online</h1>
+	<CourseCards />
+</MainLayout>
+
+
+<style>
+	.encabezado{
+		padding: 60px 0 60px 0;
+		font-weight: 600;
+		text-align: center;
+		position: sticky;
+		color: white;
+		top: 0;
+		z-index: 10;
+		width: 100%;
+		animation: enhance-header linear both;
+		animation-timeline: scroll(root);
+		animation-range: 2% 20%;
+	}
+
+	@keyframes enhance-header{
+		40%{
+			background: : red;
+			backdrop-filter: blur(60px);
+			font-size: 28px;
+			width: 100%;
+			color: black;
+			border-bottom: 0.5px solid rgba(215, 204, 210, 0.52);
+			box-shadow: 1px 5px 50px rgba(215, 204, 210, 0.52);
+			padding: 10px 0 10px 0;
+		}
+
+		100%{
+			background: : red;
+			backdrop-filter: blur(20px);
+			font-size: 28px;
+			width: 100%;
+			color: black;
+			border-bottom: 0.5px solid rgba(215, 204, 210, 0.52);
+			box-shadow: 1px 5px 50px rgba(215, 204, 210, 0.52);
+			padding: 10px 0 10px 0;
+		}
+	}
+</style>

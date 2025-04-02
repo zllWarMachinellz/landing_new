@@ -1,0 +1,25 @@
+---
+
+import {courses} from '../../data/cursos'
+import CourseCard from './CourseCard.astro'
+
+---
+
+<section class="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 cards gap-5 mb-10 pt-10 p-2 max-w-7xl">
+{
+    courses.map((course =>(
+        <CourseCard 
+        id={course.id} 
+        name={course.name} 
+        img={course.img}
+        codigo={course.codigo}
+        hours={course.hours}
+        init_date={course.init_date}
+        end_date={course.end_date}
+        entidad_subvencion={course.entidad_subvencion}
+        requirements={course.requirements}
+        slug={course.slug}
+        />
+    )))
+}
+</section>

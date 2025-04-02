@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin '@tailwindcss/typography';
+
+@theme{
+    --breakpoint-md: 1147px;
+    --breakpoint-sm: 793px;
+}

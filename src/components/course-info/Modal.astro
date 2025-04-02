@@ -1,0 +1,143 @@
+---
+import { Icon } from "astro-icon/components";
+
+import { actions } from "astro:actions";
+---
+
+<div
+    class="h-screen w-screen fixed hidden justify-center items-center top-0 bg-[rgba(0,0,0,0.66)] z-10"
+    id="modal"
+>
+    <form
+        method="POST"
+        action={actions.sentMail}
+        class="py-15 px-8 z-10 bg-[rgba(255,255,255,0.15)] backdrop-blur-[10px] rounded-[60px] flex flex-col items-center justify-center gap-8 border-1 border-[rgb(172,170,170)]"
+    >
+        <input
+            type="text"
+            class="bg-[rgba(255,255,255,0.69)] w-[280px] rounded-2xl text-center"
+            placeholder="Nombre"
+            name="name"
+        />
+        <input
+            type="text"
+            class="bg-[rgba(255,255,255,0.69)] w-[280px] rounded-2xl text-center"
+            placeholder="tucorreo@hotmail.com"
+            name="correo"
+        />
+        <div class="w-[280px] flex gap-2">
+            <Icon name={"spain-flag"} size={25} />
+            <input
+                type="tel"
+                class="bg-[rgba(255,255,255,0.69)] w-full rounded-2xl text-center"
+                placeholder="Movil"
+                name="telefono"
+            />
+        </div>
+        <div class="flex gap-2 text-white">
+            <input type="checkbox" name="politicy" /><span
+                >Acepto <a
+                    class="text-[rgb(52,123,189)]"
+                    href="https://studyfp.com/privacidad/"
+                    >política de privacidad</a
+                ></span
+            >
+        </div>
+
+        <button
+            class="p-2 cursor-pointer text-white font-bold rounded-full w-[80%] modal-btn"
+            >Enviar</button
+        >
+        <span id="erros-log"></span>
+    </form>
+    <div class="absolute top-4 right-4" id="btn-close">
+        <Icon
+            name={"close-outline"}
+            size={40}
+            class="text-amber-50 cursor-pointer"
+        />
+    </div>
+</div>
+<style>
+    .modal-btn {
+        background: linear-gradient(
+                217deg,
+                rgba(0, 51, 255, 0.8),
+                rgba(255, 0, 0, 0) 70.71%
+            ),
+            linear-gradient(
+                127deg,
+                rgba(8, 16, 79, 0.8),
+                rgba(0, 255, 0, 0) 70.71%
+            ),
+            linear-gradient(
+                336deg,
+                rgba(3, 3, 46, 0.8),
+                rgba(0, 0, 255, 0) 70.71%
+            ),
+            linear-gradient(black, black);
+    }
+</style>
+
+<script>
+    import { actions } from "astro:actions";
+    import { isOpen } from "../../stores/modalStore";
+    import { isInputError } from "astro:actions";
+
+    interface Errors {
+        name?: string[] | undefined;
+        correo?: string[] | undefined;
+        telefono?: string[] | undefined;
+    }
+
+    // Escucha los cambios en el store y muestra/oculta el diálogo en consecuencia
+    isOpen.subscribe((open) => {
+        const modal: HTMLDivElement | null = document.querySelector("#modal");
+
+        if (open) {
+            modal?.classList.add("flex");
+            modal?.classList.remove("hidden");
+        } else {
+            modal?.classList.add("hidden");
+            modal?.classList.remove("flex");
+        }
+    });
+
+    const closeModal = () => {
+        isOpen.set(false);
+    };
+    document.getElementById("btn-close")?.addEventListener("click", closeModal);
+
+    const form = document.querySelector("form");
+    form?.addEventListener("submit", async (e: SubmitEvent) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const result = await actions.sentMail(formData);
+        const inputErrors = isInputError(result?.error)
+            ? result.error.fields
+            : {};
+        const spanErrors: HTMLSpanElement =
+            document.querySelector("#erros-log")!;
+        if (isInputError(result?.error)) {
+            const getErrors = (errors: Errors): string[] => {
+                let errorsArr = [];
+                for (const el of Object.values(errors)) {
+                    errorsArr.push(el);
+                }
+                return errorsArr[0];
+            };
+            spanErrors.classList =
+                "bg-red-700 text-white p-2 rounded-full animate-bounce";
+            spanErrors.innerText = getErrors(inputErrors)[0];
+        }
+        else{
+            spanErrors.classList = "bg-emerald-700 text-white p-2 rounded-full"
+            spanErrors.innerText = "Datos enviados correctamente 👍"
+
+            setTimeout(()=>{
+                window.location.href = '/';
+            }, 1000)
+        } 
+        
+    });
+</script>

@@ -1,0 +1,79 @@
+---
+import type { Course } from "@interfaces/course.interface";
+import { Icon } from "astro-icon/components";
+const { name, img, codigo, hours, init_date, end_date, entidad_subvencion, requirements, slug} = Astro.props as Course;
+
+
+
+---
+
+
+<div
+    class=" relative  rounded-3xl hover:bg-slate-300 transition-all duration-300 w-full md:w-96 p-3 flex flex-col gap-5 card-container"
+>
+    <div class="bg-white/90 backdrop-blur-3xl w-full h-full -z-10 absolute -translate-3 rounded-3xl"></div>
+    <div class="flex justify-center items-center">
+        <img loading="lazy"  class="rounded-xl" src={img} alt={name} />
+    </div>
+    <header>
+        <h3 class="dark:text-slate-800 font-semibold">
+            {codigo} - {name}
+        </h3>
+    </header>
+    <div class="flex flex-col gap-1 text-slate-800">
+        <div class="flex justify-between">
+            <div class="flex flex-col">
+                <div class="flex gap-2">
+                    <Icon name={'clock-outline'} size={28}/>
+                    <span>{hours} horas</span>
+                  </div>
+                  <div class="flex flex-col">
+                    <span class="font-bold">Inicio: {init_date}</span>
+                    <span class="font-bold">Fin: {end_date}</span>
+                  </div>
+            </div>
+            <div class="flex relative flex-col text-xs">
+                <div class="flex flex-col bg-slate-200 absolute -translate-x-[180px] w-48 p-1 rounded-tl-full shadow-md">
+                  <span class="translate-x-6">subvencionado por</span>
+                  <img class="translate-x-4" src={entidad_subvencion} width={150} height={220} alt="logo de la entidad de la subvencion" />
+                </div>
+              </div>
+        </div>
+        <hr class="p-2" />
+        <span class="text-slate-600">Requisitos</span>
+        <div class="flex gap-2">
+            {
+              requirements.map(
+                el => <div class="bg-slate-700 rounded-full p-1 text-white text-xs"><span class="p-1">{el}</span></div>
+              )
+            }
+          </div>
+    </div>
+    <footer class="flex justify-center">
+        <a href={slug} class="text-center cursor-pointer bg-stone-100 shadow-[0_5px_10px_1px_rgba(0,0,0,0.4)] hover:bg-[#3a6d8f] hover:text-white rounded-full text-slate-900 p-2 mt-4 font-bold text-sm w-full" >Información
+        </a>
+    </footer>
+</div>
+
+
+<style>
+  .card-container{
+    animation: reveal linear both;
+    animation-timeline: view();
+    animation-range: entry 10% cover 30%;
+  }
+
+  @keyframes reveal{
+    from {
+      opacity: 0;
+      translate: 0 100px;
+      scale: .5
+    }
+
+    to {
+      opacity: 1;
+      translate: 0 0;
+      scale: 1;
+    }
+  }
+</style>

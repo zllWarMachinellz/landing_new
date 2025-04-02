@@ -1,0 +1,23 @@
+---
+import type { Lista } from '@interfaces/courseInfo.interface'
+import Listas from './Listas.astro'
+
+
+interface Props{
+    props: Lista | string
+}
+
+const {props} = Astro.props
+
+// let listas = []
+// if(typeof props === 'object'){
+//     listas.push(props);
+//  }
+//console.log(listas);
+---
+
+<div class="text-white">
+{
+    (typeof props === 'object') ? <span></span> : <li>{props}</li> 
+}
+</div>
