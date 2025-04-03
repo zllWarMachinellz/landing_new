@@ -7,7 +7,11 @@ import MainLayout from "../layouts/MainLayout.astro";
 ---
 
 <MainLayout title="Cursos gratis online" description="Aquí encontrarás una extensa lista de cursos subvencionados en el territorio de españa">
-	<h1 class="encabezado text-[25px] sm:text-[50px] md:text-[60px]">Cursos gratis online</h1>
+	<header class="encabezado text-[25px] sm:text-[50px] md:text-[60px] text-black flex items-center justify-around">
+		<img width="70" src="/imgs/logos/LOGO-SIN-FONDO.png" alt="logo study">
+		<h1 >Cursos gratis online</h1>
+		<div class="w-10 h-10 " ></div>
+	</header>
 	<CourseCards />
 </MainLayout>
 
@@ -17,28 +21,17 @@ import MainLayout from "../layouts/MainLayout.astro";
 		padding: 60px 0 60px 0;
 		font-weight: 600;
 		text-align: center;
-		position: sticky;
-		color: white;
+		position: fixed;
+		color: black;
 		top: 0;
 		z-index: 10;
 		width: 100%;
 		animation: enhance-header linear both;
-		animation-timeline: scroll(root);
-		animation-range: 2% 20%;
+		animation-timeline: scroll();
+		animation-range: 0 150px;
 	}
 
 	@keyframes enhance-header{
-		40%{
-			background: : red;
-			backdrop-filter: blur(60px);
-			font-size: 28px;
-			width: 100%;
-			color: black;
-			border-bottom: 0.5px solid rgba(215, 204, 210, 0.52);
-			box-shadow: 1px 5px 50px rgba(215, 204, 210, 0.52);
-			padding: 10px 0 10px 0;
-		}
-
 		100%{
 			background: : red;
 			backdrop-filter: blur(20px);
