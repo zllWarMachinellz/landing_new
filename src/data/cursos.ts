@@ -33,7 +33,7 @@ export const courses: Course[] = [
     {
         id: '1',
         img: '/imgs/cursos/ada/ada-contenido-digital-basico.webp',
-        codigo: "[FCOI15_1]",
+        codigo: "[FCOI15]",
         name: 'Creación de contenidos digitales. Nivel básico',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -46,31 +46,33 @@ export const courses: Course[] = [
     {
         id: '2',
         img: '/imgs/cursos/ada/ada-gestion-contenido-digital.webp',
-        codigo: "[FCOI10_1]",
+        codigo: "[FCOI10]",
         name: 'Búsqueda y gestión de la información digital. Nivel básico',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
         init_date: 'Por definir',
         end_date: 'Por definir',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "busqueda-gestion-de-la-informacion-digital"
     },
     {
         id: '3',
         img: '/imgs/cursos/ada/ada-comunicación-colaboracion-herramientas-digitales.webp',
-        codigo: "[FCOI10_1]",
+        codigo: "[FCOI18]",
         name: 'Comunicación y colaboración con herramientas digitales. Nivel básico',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
         init_date: 'Por definir',
         end_date: 'Por definir',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "comunicacion-colaboracion-con-herramientas-digitales"
     },
     {
         id: '4',
         img: '/imgs/cursos/ada/ada-herramientas-gestio-web.webp',
-        codigo: "[IFCT053PO_1]",
+        codigo: "[IFCT053PO]",
         name: 'Herramientas de gestión web (gestión de contenidos)',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -82,7 +84,7 @@ export const courses: Course[] = [
     {
         id: '5',
         img: '/imgs/cursos/ada/ada-informatica.webp',
-        codigo: "[FCOI13_2]",
+        codigo: "[FCOI13]",
         name: 'Iniciación a la informática y en competencias digitales básicas',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -94,7 +96,7 @@ export const courses: Course[] = [
     {
         id: '6',
         img: '/imgs/cursos/ada/ada-excel.webp',
-        codigo: "[FCOI28_2]",
+        codigo: "[FCOI28]",
         name: 'Aplicación de la hoja de cálculo (Excel). Nivel inicial',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -106,7 +108,7 @@ export const courses: Course[] = [
     {
         id: '7',
         img: '/imgs/cursos/ada/ada-excel-avanzado.webp',
-        codigo: "[FCOI27_2]",
+        codigo: "[FCOI27]",
         name: 'Aplicación de la hoja de cálculo (Excel). Nivel avanzado',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -118,7 +120,7 @@ export const courses: Course[] = [
     {
         id: '8',
         img: '/imgs/cursos/ada/ada-word-avanzado.webp',
-        codigo: "[ADGG084PO_2]",
+        codigo: "[ADGG084PO]",
         name: 'Aplicación de documentos de texto (Word). Nivel avanzado',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -130,7 +132,7 @@ export const courses: Course[] = [
     {
         id: '9',
         img: '/imgs/cursos/ada/ada-sap-modulsd.webp',
-        codigo: "[IFCT83_3]",
+        codigo: "[IFCT83]",
         name: 'SAP - Módulo SD, ventas y distribución - nivel usuario',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -142,7 +144,7 @@ export const courses: Course[] = [
     {
         id: '10',
         img: '/imgs/cursos/ada/ada-sap-modulomm.webp',
-        codigo: "[IFCT82_3]",
+        codigo: "[IFCT82]",
         name: 'SAP - Módulo MM, gestión de materiales - nivel usuario',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -154,7 +156,7 @@ export const courses: Course[] = [
     {
         id: '11',
         img: '/imgs/cursos/sectorial/sectorial-comercio-exterior.webp',
-        codigo: "[COMT0015_1]",
+        codigo: "[COMT0015]",
         name: 'Gestión del comercio exterior curso virtual',
         hours: 40,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -166,7 +168,7 @@ export const courses: Course[] = [
     {
         id: '12',
         img: '/imgs/cursos/sectorial/sectorial-gestion-empresa.webp',
-        codigo: "[ADGD0040_1]",
+        codigo: "[ADGD0040]",
         name: 'Gestión fiscal de empresa curso virtual',
         hours: 40,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -178,7 +180,7 @@ export const courses: Course[] = [
     {
         id: '13',
         img: '/imgs/cursos/sectorial/sectorial-fiscalidad-operativa.webp',
-        codigo: "[ADGN0010_1]",
+        codigo: "[ADGN0010]",
         name: 'Fiscalidad operativa curso virtual',
         hours: 60,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -190,7 +192,7 @@ export const courses: Course[] = [
     {
         id: '14',
         img: '/imgs/cursos/sectorial/sectorial-cliente-ingles.webp',
-        codigo: "[COMT0013_3]",
+        codigo: "[COMT0013]",
         name: 'Atención al cliente del pequeño comercio en lengua extranjera, Inglés',
         hours: 30,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -202,7 +204,7 @@ export const courses: Course[] = [
     {
         id: '15',
         img: '/imgs/cursos/sectorial/sectorial-atencion-venta-establecimientos.webp',
-        codigo: "[COMT0017_3]",
+        codigo: "[COMT0017]",
         name: 'Atención y venta a establecimientos comerciales',
         hours: 30,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -214,7 +216,7 @@ export const courses: Course[] = [
     {
         id: '16',
         img: '/imgs/cursos/sectorial/sectorial-tecnicas-venta-habiidades-comerciales.webp',
-        codigo: "[COMT0016_3]",
+        codigo: "[COMT0016]",
         name: 'Técnicas para la venta y habilidades comerciales',
         hours: 40,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -226,7 +228,7 @@ export const courses: Course[] = [
     {
         id: '17',
         img: '/imgs/cursos/sectorial/sectorial-neuromarketing.webp',
-        codigo: "[COMM0014_4]",
+        codigo: "[COMM0014]",
         name: 'Neuromarketing curso virtual para empleados',
         hours: 35,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -238,7 +240,7 @@ export const courses: Course[] = [
     {
         id: '18',
         img: '/imgs/cursos/sectorial/sectorial-marketing-buscadores-seo-sem.webp',
-        codigo: "[COMM41_4]",
+        codigo: "[COMM41]",
         name: 'Marketing Y Buscadores: SEO, SEM Y Analítica Web',
         hours: 45,
         entidad_subvencion: "/imgs/logos/consorci.png",
@@ -250,7 +252,7 @@ export const courses: Course[] = [
     {
         id: '19',
         img: '/imgs/cursos/sectorial/sectorial-tienda-virtual-gestion-comercio.webp',
-        codigo: "[COMM41_4]",
+        codigo: "[COMM0011]",
         name: 'Tienda virtual y gestión del comercio electrónico',
         hours: 35,
         entidad_subvencion: "/imgs/logos/consorci.png",

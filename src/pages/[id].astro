@@ -7,7 +7,6 @@ import HeaderInfo from "../components/course-info/HeaderInfo.astro";
 import Objetivo from "../components/course-info/Objetivo.astro";
 import Requisitos from "../components/course-info/Requisitos.astro";
 import Modulos from "../components/course-info/Modulos.astro";
-import { Icon } from "astro-icon/components";
 import Modal from "../components/course-info/Modal.astro";
 
 interface Props {
@@ -17,22 +16,13 @@ interface Props {
 export const getStaticPaths = (async () => {
     return indice.map((el) => {
         return {
-            params: { id: el.creacionContenidos.slug },
-            props: el.creacionContenidos,
+            params: { id: el.slug },
+            props: {props :el.props}
         };
     });
-
-    // return[
-    //     {
-    //         params: {id: indice[0].creacionContenidos.slug},
-    //         props: {}
-    //     }
-    // ]
 }) satisfies GetStaticPaths;
 
 const { props }: Props = Astro.props;
-
-console.log(props.title);
 ---
 
 <MainLayout title={props.title} description={props.objetivo}>
@@ -65,7 +55,7 @@ console.log(props.title);
             >
             </div>
             <div class="flex flex-col max-w-7xl">
-                <h3 class="p-10 font-bold text-white text-center text-3xl">
+                <h3 class="p-10 font-bold text-black text-center text-3xl">
                     Módulos
                 </h3>
                 <div

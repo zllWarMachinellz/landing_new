@@ -1,11 +1,16 @@
-import { CreacionContenidosDigitales } from "./couses-info";
+import { BusquedaGestionInformacionDigital, ComunicacionColoboracionConHerramientasDigitales, CreacionContenidosDigitales } from "./couses-info";
 
 export const indice = [
     {
-        creacionContenidos: {
-            slug: 'creacion-de-contenidos-digitales',
-            props: CreacionContenidosDigitales
-        }
+        slug: 'creacion-de-contenidos-digitales',
+        props: CreacionContenidosDigitales
     },
-    
+    {
+        slug: 'busqueda-gestion-de-la-informacion-digital',
+        props: BusquedaGestionInformacionDigital
+    },
+    {
+        slug: 'comunicacion-colaboracion-con-herramientas-digitales',
+        props: ComunicacionColoboracionConHerramientasDigitales
+    }
 ]
