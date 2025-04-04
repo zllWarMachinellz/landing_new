@@ -1,0 +1,16 @@
+---
+import type { Lista } from '@interfaces/courseInfo.interface';
+
+
+interface Props{
+    requisitos: Lista
+}
+
+const {requisitos} = Astro.props;
+
+---
+
+<ol>
+    <h4 class="font-bold pb-2">{requisitos.header}</h4>
+    {requisitos.body?.map(el => <li class="pl-4"> ● { el}</li>)}
+</ol>

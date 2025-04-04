@@ -279,7 +279,7 @@ export const BusquedaGestionInformacionDigital: CursoInfo = {
                                 'Lista de tareas'
                             ]
                         }
-                    ]                    
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -447,7 +447,7 @@ export const ComunicacionColoboracionConHerramientasDigitales: CursoInfo = {
                                 "Cumplimiento de la planificación"
                             ]
                         }
-                    ]                    
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -514,48 +514,48 @@ export const IniciacionInformatica: CursoInfo = {
                     title: 'Conocimientos/ Capacidades cognitivas y prácticas',
                     listas: [
                         {
-                          header: "Inicio del ordenador y sus elementos principales",
-                          body: [
-                            "Clasificación de los tipos de ordenador según tipo y sistema operativo.",
-                            "Inicio, apagado e hibernación del ordenador.",
-                            "Utilización de las opciones, ajustes y aplicaciones del sistema operativo.",
-                            "Identificación del sistema operativo y su versión desde el menú del ordenador.",
-                            "Localización e inicio de los programas básicos (navegador, explorador de archivos, visor de imágenes, entre otros) que incluye el sistema operativo.",
-                            "Conexión de una impresora al ordenador y comprobación de su funcionamiento."
-                          ]
+                            header: "Inicio del ordenador y sus elementos principales",
+                            body: [
+                                "Clasificación de los tipos de ordenador según tipo y sistema operativo.",
+                                "Inicio, apagado e hibernación del ordenador.",
+                                "Utilización de las opciones, ajustes y aplicaciones del sistema operativo.",
+                                "Identificación del sistema operativo y su versión desde el menú del ordenador.",
+                                "Localización e inicio de los programas básicos (navegador, explorador de archivos, visor de imágenes, entre otros) que incluye el sistema operativo.",
+                                "Conexión de una impresora al ordenador y comprobación de su funcionamiento."
+                            ]
                         },
                         {
-                          header: "Búsqueda y gestión de información en Internet, su almacenamiento y recuperación",
-                          body: [
-                            "Definición de las necesidades de información según las propias necesidades (subvenciones, becas, compra-venta online, proveedores, clientes, gestiones con la Administración, gestiones bancarias, cartelera de cine, búsqueda de cursos, entre otros).",
-                            "Conexión con páginas web de información concretas en escenarios personales definidos (web de compras, noticias, cartelera de espectáculos, entre otros).",
-                            "Conexión con páginas web de información en un escenario laboral definido (portal de empleo, web de la Administración correspondiente, entre otros).",
-                            "Utilización del buscador web (motor de búsqueda) incluido en el ordenador.",
-                            "Realización de búsquedas web según palabras clave.",
-                            "Descarga de los principales navegadores e instalarlos.",
-                            "Realización de búsquedas simples de información y contenidos relacionados con escenarios personales y laborales.",
-                            "Acceso a los datos, información y contenidos ofrecidos en búsquedas y navegar entre ellos.",
-                            "Cotejo de las fuentes de información y reconocimiento de las fuentes confiables y no confiables.",
-                            "Organización, almacenamiento y recuperación de los datos y contenidos de forma sencilla en entornos digitales.",
-                            "Búsqueda de relaciones entre los principales tipos de formato de archivo y el programa correspondiente (texto, imagen y audio, entre otros). Tipos de formato de archivo.",
-                            "Descarga de algún tipo de archivo al ordenador y guardarlo organizando la información de forma sencilla y en un entorno estructurado de carpetas y archivos.",
-                            "Recuperación de los archivos descargados y abrirlos.",
-                            "Almacenamiento en ubicación local, dispositivo extraíble y en repositorio en la nube."
-                          ]
+                            header: "Búsqueda y gestión de información en Internet, su almacenamiento y recuperación",
+                            body: [
+                                "Definición de las necesidades de información según las propias necesidades (subvenciones, becas, compra-venta online, proveedores, clientes, gestiones con la Administración, gestiones bancarias, cartelera de cine, búsqueda de cursos, entre otros).",
+                                "Conexión con páginas web de información concretas en escenarios personales definidos (web de compras, noticias, cartelera de espectáculos, entre otros).",
+                                "Conexión con páginas web de información en un escenario laboral definido (portal de empleo, web de la Administración correspondiente, entre otros).",
+                                "Utilización del buscador web (motor de búsqueda) incluido en el ordenador.",
+                                "Realización de búsquedas web según palabras clave.",
+                                "Descarga de los principales navegadores e instalarlos.",
+                                "Realización de búsquedas simples de información y contenidos relacionados con escenarios personales y laborales.",
+                                "Acceso a los datos, información y contenidos ofrecidos en búsquedas y navegar entre ellos.",
+                                "Cotejo de las fuentes de información y reconocimiento de las fuentes confiables y no confiables.",
+                                "Organización, almacenamiento y recuperación de los datos y contenidos de forma sencilla en entornos digitales.",
+                                "Búsqueda de relaciones entre los principales tipos de formato de archivo y el programa correspondiente (texto, imagen y audio, entre otros). Tipos de formato de archivo.",
+                                "Descarga de algún tipo de archivo al ordenador y guardarlo organizando la información de forma sencilla y en un entorno estructurado de carpetas y archivos.",
+                                "Recuperación de los archivos descargados y abrirlos.",
+                                "Almacenamiento en ubicación local, dispositivo extraíble y en repositorio en la nube."
+                            ]
                         },
                         {
-                          header: "Utilización de forma segura y responsable de dispositivos en entornos digitales",
-                          body: [
-                            "Descripción de técnicas elementales de protección de dispositivos y sus riesgos y amenazas.",
-                            "Uso de herramientas antivirus, medidas de seguridad y precauciones a seguir.",
-                            "Consulta y protección de los datos personales y privacidad.",
-                            "Gestión de la privacidad limitando los datos a compartir.",
-                            "Protección de la salud y el bienestar en el uso de los entornos digitales. Iluminación, ergonomía y tiempo de uso.",
-                            "Utilización de las técnicas de protección del ciberacoso.",
-                            "Uso de las tecnologías digitales de forma respetuosa con el entorno y con el medioambiente."
-                          ]
+                            header: "Utilización de forma segura y responsable de dispositivos en entornos digitales",
+                            body: [
+                                "Descripción de técnicas elementales de protección de dispositivos y sus riesgos y amenazas.",
+                                "Uso de herramientas antivirus, medidas de seguridad y precauciones a seguir.",
+                                "Consulta y protección de los datos personales y privacidad.",
+                                "Gestión de la privacidad limitando los datos a compartir.",
+                                "Protección de la salud y el bienestar en el uso de los entornos digitales. Iluminación, ergonomía y tiempo de uso.",
+                                "Utilización de las técnicas de protección del ciberacoso.",
+                                "Uso de las tecnologías digitales de forma respetuosa con el entorno y con el medioambiente."
+                            ]
                         }
-                      ],
+                    ],
                 },
                 {
                     title: 'Habilidades de gestión, personales y sociales',
@@ -578,43 +578,43 @@ export const IniciacionInformatica: CursoInfo = {
                     title: "Conocimientos/ Capacidades cognitivas y prácticas",
                     listas: [
                         {
-                          header: "Comunicación y colaboración con otros usuarios mediante tecnologías digitales",
-                          body: [
-                            "Selección de tecnologías digitales para interactuar según necesidades más habituales (email, herramientas de videoconferencia, entre otros).",
-                            "Creación de una cuenta de correo electrónico definiendo usuario y contraseña.",
-                            "Utilización del correo electrónico, introduciendo el usuario y la contraseña. Redacción, envío y recepción de emails.",
-                            "Uso de herramientas de mensajería en el ordenador y dispositivos móviles (a título ilustrativo, SMS, WhatsApp, Telegram, entre otros). Envío y recepción de mensajes.",
-                            "Inicio de reuniones virtuales con herramientas de videoconferencia (a título ilustrativo, Skype, Zoom, entre otros) activando y desactivando audio y video y compartir escritorio.",
-                            "Envío de archivos (imágenes, textos, entre otros) por correo electrónico y herramientas de mensajería instantánea.",
-                            "Comprensión de la propia identidad digital en Internet, analizando sus beneficios y riesgos.",
-                            "Colaboración mediante tecnologías digitales utilizando herramientas colaborativas (foros, chats, blogs, wikis, entre otros).",
-                            "Descripción de las normas de comportamiento en entornos digitales. Netiqueta."
-                          ]
+                            header: "Comunicación y colaboración con otros usuarios mediante tecnologías digitales",
+                            body: [
+                                "Selección de tecnologías digitales para interactuar según necesidades más habituales (email, herramientas de videoconferencia, entre otros).",
+                                "Creación de una cuenta de correo electrónico definiendo usuario y contraseña.",
+                                "Utilización del correo electrónico, introduciendo el usuario y la contraseña. Redacción, envío y recepción de emails.",
+                                "Uso de herramientas de mensajería en el ordenador y dispositivos móviles (a título ilustrativo, SMS, WhatsApp, Telegram, entre otros). Envío y recepción de mensajes.",
+                                "Inicio de reuniones virtuales con herramientas de videoconferencia (a título ilustrativo, Skype, Zoom, entre otros) activando y desactivando audio y video y compartir escritorio.",
+                                "Envío de archivos (imágenes, textos, entre otros) por correo electrónico y herramientas de mensajería instantánea.",
+                                "Comprensión de la propia identidad digital en Internet, analizando sus beneficios y riesgos.",
+                                "Colaboración mediante tecnologías digitales utilizando herramientas colaborativas (foros, chats, blogs, wikis, entre otros).",
+                                "Descripción de las normas de comportamiento en entornos digitales. Netiqueta."
+                            ]
                         },
                         {
-                          header: "Creación y edición de contenidos digitales mediante aplicaciones básicas",
-                          body: [
-                            "Uso de un procesador de texto básico (redacción y guardado).",
-                            "Captura, descarga y guardado de una imagen.",
-                            "Utilización de software de creación de imágenes.",
-                            "Conocimientos elementales de los derechos de autor, licencias y permisos de uso.",
-                            "Integración y reelaboración de contenidos digitales."
-                          ]
+                            header: "Creación y edición de contenidos digitales mediante aplicaciones básicas",
+                            body: [
+                                "Uso de un procesador de texto básico (redacción y guardado).",
+                                "Captura, descarga y guardado de una imagen.",
+                                "Utilización de software de creación de imágenes.",
+                                "Conocimientos elementales de los derechos de autor, licencias y permisos de uso.",
+                                "Integración y reelaboración de contenidos digitales."
+                            ]
                         },
                         {
-                          header: "Identificación de necesidades digitales y resolución de problemas técnicos elementales",
-                          body: [
-                            "Identificación de los problemas técnicos más frecuentes en entornos digitales.",
-                            "Técnicas de resolución de problemas técnicos (alimentación y conexión de dispositivos y periféricos).",
-                            "Identificación de las necesidades tecnológicas según el entorno y necesidades de uso.",
-                            "Elaboración de respuestas a las necesidades tecnológicas según necesidades de uso identificadas.",
-                            "Uso de la tecnología digital de forma creativa elaborando textos, imágenes, audios o vídeos.",
-                            "Identificación de lagunas en la competencia digital propia.",
-                            "Búsqueda de oportunidades para el autodesarrollo y mantenerse al día con la evolución digital.",
-                            "Apoyo a los demás en el desarrollo de sus competencias digitales básicas."
-                          ]
+                            header: "Identificación de necesidades digitales y resolución de problemas técnicos elementales",
+                            body: [
+                                "Identificación de los problemas técnicos más frecuentes en entornos digitales.",
+                                "Técnicas de resolución de problemas técnicos (alimentación y conexión de dispositivos y periféricos).",
+                                "Identificación de las necesidades tecnológicas según el entorno y necesidades de uso.",
+                                "Elaboración de respuestas a las necesidades tecnológicas según necesidades de uso identificadas.",
+                                "Uso de la tecnología digital de forma creativa elaborando textos, imágenes, audios o vídeos.",
+                                "Identificación de lagunas en la competencia digital propia.",
+                                "Búsqueda de oportunidades para el autodesarrollo y mantenerse al día con la evolución digital.",
+                                "Apoyo a los demás en el desarrollo de sus competencias digitales básicas."
+                            ]
                         }
-                      ]                    
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -637,46 +637,46 @@ export const IniciacionInformatica: CursoInfo = {
                     title: "Conocimientos/ Capacidades cognitivas y prácticas",
                     listas: [
                         {
-                          header: "Manejo de archivos",
-                          body: [
-                            "Tipos de archivos: de configuración, de sistema, de programas, de texto, de imagen, de audio, de video.",
-                            "Visualización de archivos y carpetas.",
-                            "Almacenamiento y recuperación."
-                          ]
+                            header: "Manejo de archivos",
+                            body: [
+                                "Tipos de archivos: de configuración, de sistema, de programas, de texto, de imagen, de audio, de video.",
+                                "Visualización de archivos y carpetas.",
+                                "Almacenamiento y recuperación."
+                            ]
                         },
                         {
-                          header: "Utilización básica de aplicaciones ofimáticas",
-                          body: [
-                            "Creación de un fichero de texto con un editor sencillo. Aplicación de formato de texto.",
-                            "Creación de un fichero de imagen con un editor sencillo. Tratamiento básico de la imagen. Características de los formatos de imagen en Internet: GIF y JPG.",
-                            "Integración de texto e imagen en un documento.",
-                            "Impresión de documentos.",
-                            "Del ordenador personal a sistemas multiusuario.",
-                            "Ventajas del trabajo en red: compartir recursos físicos y lógicos, comunicación con otros usuarios, transferencia de información."
-                          ]
+                            header: "Utilización básica de aplicaciones ofimáticas",
+                            body: [
+                                "Creación de un fichero de texto con un editor sencillo. Aplicación de formato de texto.",
+                                "Creación de un fichero de imagen con un editor sencillo. Tratamiento básico de la imagen. Características de los formatos de imagen en Internet: GIF y JPG.",
+                                "Integración de texto e imagen en un documento.",
+                                "Impresión de documentos.",
+                                "Del ordenador personal a sistemas multiusuario.",
+                                "Ventajas del trabajo en red: compartir recursos físicos y lógicos, comunicación con otros usuarios, transferencia de información."
+                            ]
                         },
                         {
-                          header: "Ejecución de las funciones y comandos principales del sistema operativo"
+                            header: "Ejecución de las funciones y comandos principales del sistema operativo"
                         },
                         {
-                          header: "Ejecución de las funciones principales del explorador de archivos: copiar, mover, borrar ficheros"
+                            header: "Ejecución de las funciones principales del explorador de archivos: copiar, mover, borrar ficheros"
                         },
                         {
-                          header: "Utilización de las funciones principales de un editor de texto"
+                            header: "Utilización de las funciones principales de un editor de texto"
                         },
                         {
-                          header: "Utilización de las funciones principales de un editor de imagen"
+                            header: "Utilización de las funciones principales de un editor de imagen"
                         },
                         {
-                          header: "Obtención de documentos con texto e imagen"
+                            header: "Obtención de documentos con texto e imagen"
                         },
                         {
-                          header: "Selección y configuración del dispositivo y los periféricos más usuales"
+                            header: "Selección y configuración del dispositivo y los periféricos más usuales"
                         },
                         {
-                          header: "Impresión de documentos"
+                            header: "Impresión de documentos"
                         }
-                      ]
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -687,5 +687,413 @@ export const IniciacionInformatica: CursoInfo = {
                 }
             ]
         }
+    ]
+}
+
+export const AplicacionHojaDeCalculoExcelInicial: CursoInfo = {
+    title: 'Aplicación de la hoja de cálculo Excel. Nivel inicial',
+    objetivo: 'Crear y utilizar hojas de cálculo con Excel, manejando las herramientas y funciones más habituales en todas aquellas actividades que requieran tratamiento de datos e información, así como su presentación.',
+    requisitosAlumnos: 'No se requieren acreditaciones o titulaciones.',
+    modulos: [
+        {
+            titulo: 'INTRODUCCIÓN A MICROSOFT EXCEL',
+            objetivo: 'Identificar los elementos de una hoja de cálculo Excel, utilizar la aplicación para crear archivos de Libros y hojas y navegar por los principales elementos de Excel.',
+            duracion: 5,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                            header: "Conocimiento de la aplicación de hoja de cálculo Excel",
+                            body: [
+                                "Finalidades del Excel",
+                                "Partes principales del programa",
+                                "Elementos del entorno",
+                                "Creación de un Libro",
+                                "Salida del programa Excel"
+                            ]
+                        },
+                        {
+                            header: "Especificaciones del proceso de creación y archivo de Libros y hojas",
+                            body: [
+                                "Conocimiento de los Libros y hojas en Excel",
+                                "Moverse por las hojas",
+                                "Creación y eliminación de hojas",
+                                "Copiar hojas",
+                                "Guardado de libros"
+                            ]
+                        },
+                        {
+                            header: "Navegación por los principales elementos de Excel",
+                            body: [
+                                "Cinta de opciones",
+                                "Backstage"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Concienciación sobre la necesidad de desarrollar conocimientos, destrezas y actitudes para el uso de los medios digitales.',
+                        'Actitud personal positiva hacia las competencias digitales.',
+                        'Responsabilidad y autonomía para evitar los riesgos para la salud y amenazas al bienestar físico y psicológico con el uso del ordenador.',
+                        'Apreciación de las competencias digitales para el aprendizaje (formal, no formal e informal) a lo largo de la vida.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "EDICIÓN, FORMATO, IMPRESIÓN Y PRESENTACIÓN DE LA INFORMACIÓN",
+            objetivo: "Introducir, editar, dar formato y presentar información en hojas de cálculo Excel de forma ágil y eficiente.",
+            duracion: 15,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Especificaciones para la introducción y organización de datos",
+                            body: [
+                                "Datos en Excel",
+                                "Formas de introducir datos",
+                                "Números y texto",
+                                "Fechas",
+                                "Símbolos",
+                                "Grupo de celdas",
+                                "Series",
+                                "Tendencias",
+                                "Ortografía"
+                            ]
+                        },
+                        {
+                            header: "Especificaciones para la modificación de hojas",
+                            body: [
+                                "Edición de celdas",
+                                "Cortar y copiar con el ratón",
+                                "Inserción y eliminación de celdas",
+                                "Procedimiento para buscar y reemplazar"
+                            ]
+                        },
+                        {
+                            header: "Descripción del proceso de configuración de celdas",
+                            body: [
+                                "Concepto de formato de celdas",
+                                "Anchura y altura de celdas",
+                                "Alineación de datos",
+                                "Fuentes de texto",
+                                "Bordes y rellenos",
+                                "Formatos de número",
+                                "Formatos personalizados",
+                                "Estilos de celda"
+                            ]
+                        },
+                        {
+                            header: "Determinación de la configuración de formato",
+                            body: [
+                                "Organización e impresión de hojas",
+                                "Organización de ventanas",
+                                "Configuración de página",
+                                "Saltos de página",
+                                "Impresión"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Concienciación de la necesidad de la formación permanente y la inclusión de nuevas tecnologías en el ámbito del entorno laboral.",
+                        "Efectividad en la realización de la configuración de una hoja de cálculo Excel mediante la aplicación de los ajustes adecuados del programa.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "FÓRMULAS, FUNCIONES, GRÁFICOS Y REFERENCIAS EXTERNAS",
+            objetivo: "Utilizar fórmulas, funciones, gráficos y referencias externas en los Libros de Excel ajustándose a las especificaciones recibidas del trabajo a realizar o de las necesidades de la persona usuaria.",
+            duracion: 20,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Identificación y aplicación de fórmulas",
+                            body: [
+                                "Fórmulas. Características y denominación",
+                                "Uso de operadores y prioridades",
+                                "Referencias a celdas",
+                                "Referencias a otras hojas",
+                                "Mover y copiar fórmulas"
+                            ]
+                        },
+                        {
+                            header: "Conocimiento y manejo de funciones",
+                            body: [
+                                "Características de las funciones",
+                                "Principales funciones en Excel",
+                                "Insertar una función",
+                                "Insertar referencias",
+                                "Funciones anidadas"
+                            ]
+                        },
+                        {
+                            header: "Aplicación de formatos",
+                            body: [
+                                "Trabajo con “temas”",
+                                "Formatos condicionales",
+                                "Formatos condicionales personalizados",
+                                "Insertar dibujos e imágenes"
+                            ]
+                        },
+                        {
+                            header: "Manejo de la edición de hojas",
+                            body: [
+                                "Pegado especial",
+                                "Organización con paneles",
+                                "Ocultar filas, columnas y hojas",
+                                "Comparación de Libros"
+                            ]
+                        },
+                        {
+                            header: "Especificaciones para la creación de gráficos",
+                            body: [
+                                "Elementos del gráfico",
+                                "Formato de elementos gráficos",
+                                "Procedimiento para añadir datos",
+                                "Creación del gráfico",
+                                "Modificación del aspecto"
+                            ]
+                        },
+                        {
+                            header: "Introducción de datos en la web",
+                            body: [
+                                "Hipervínculos",
+                                "Movimiento entre los vínculos",
+                                "Guardado como formato de página web",
+                                "Guardado con otros formatos de archivo"
+                            ]
+                        },
+                        {
+                            header: "Uso de matrices y referencias externas",
+                            body: [
+                                "Fórmulas de matriz",
+                                "Constantes matriciales",
+                                "Inserción de matrices",
+                                "Referencias externas (vínculos)",
+                                "Trabajo con referencias externas"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Concienciación de la necesidad de la formación permanente y la inclusión de nuevas tecnologías en el ámbito del entorno laboral.",
+                        "Efectividad en la realización de la configuración de una hoja de cálculo Excel mediante la aplicación de los ajustes adecuados del programa.",
+                        "Capacidad para seleccionar y organizar los datos necesarios para la elaboración de un gráfico según los requerimientos establecidos."
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+export const AplicacionHojaDeCalculoExcelAvanzado: CursoInfo = {
+    title: 'Aplicación de la hoja de cálculo Excel. Nivel avanzado',
+    objetivo: 'Elaborar hojas de cálculo complejas con Excel, manejando las herramientas y funciones más avanzadas, automatizando tareas y compartiendo información con otras aplicaciones y usuarios.',
+    requisitosAlumnos:{
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad de nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio",
+            "Título de Bachiller o equivalente.",
+            "Título de Técnico Superior (FP Grado Superior) o equivalente"
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'HERRAMIENTAS AVANZADAS PARA EL TRATAMIENTO Y PRESENTACIÓN DE DATOS',
+            objetivo: 'Elaborar hojas de cálculo complejas con Excel. manejando herramientas y funciones avanzadas en el tratamiento y presentación de datos de forma ágil y eficiente.',
+            duracion: 25,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Especificaciones para el uso de listas",
+                          body: [
+                            "Conceptos básicos",
+                            "Autocompletado de listas",
+                            "Manejo de formularios",
+                            "Ordenación de listas",
+                            "Validación de datos",
+                            "Extensión de formatos y fórmulas"
+                          ]
+                        },
+                        {
+                          header: "Uso de filtros y tablas",
+                          body: [
+                            "Filtrado de datos",
+                            "Manejo de filtros avanzados",
+                            "Copiar datos filtrados",
+                            "Manejo de listas filtradas",
+                            "Manejo de tablas"
+                          ]
+                        },
+                        {
+                          header: "Manejo de subtotales",
+                          body: [
+                            "Subtotales automáticos",
+                            "Organización de subtotales",
+                            "Gráficos con subtotales",
+                            "Subtotales avanzados"
+                          ]
+                        },
+                        {
+                          header: "Aplicación de fórmulas con opciones avanzadas",
+                          body: [
+                            "Detección de errores en las fórmulas",
+                            "Auditoría de fórmulas",
+                            "Inserción de comentarios y ecuaciones",
+                            "Control del cálculo",
+                            "Funciones de búsqueda"
+                          ]
+                        },
+                        {
+                          header: "Creación de gráficos con opciones avanzadas",
+                          body: [
+                            "Gráficos 3D y plantillas de gráfico.",
+                            "Elementos del gráfico",
+                            "Datos en un eje secundario",
+                            "Imágenes en gráficos",
+                            "Inserción de minigráficos",
+                            "Impresión de gráficos"
+                          ]
+                        },
+                        {
+                          header: "Aplicación de funciones con opciones avanzadas",
+                          body: [
+                            "Alternativas para un mismo cálculo",
+                            "Contado de celdas en blanco",
+                            "Consolidación con referencias 3D",
+                            "Anidamiento de funciones condicionales",
+                            "Cálculo de totales con fórmulas",
+                            "Cálculo de totales con criterios",
+                            "Búsqueda de registros",
+                            "Funciones de pago de intereses y de capital"
+                          ]
+                        },
+                        {
+                          header: "Manejo de tablas y gráficos dinámicos",
+                          body: [
+                            "Creación de tablas dinámicas",
+                            "Uso de tablas dinámicas",
+                            "Segmentación de datos",
+                            "Actualización y gráficos dinámicos",
+                            "Consolidación de datos"
+                          ]
+                        }
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Capacidad de organización para abordar el manejo del Excel.',
+                        'Efectividad en la realización de listas y tablas mediante la aplicación de los ajustes adecuados del programa en función de las necesidades.',
+                        'Capacidad para seleccionar y organizar los datos necesarios para la elaboración de gráficos complejos según los requerimientos establecidos.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "AUTOMATIZACIÓN DE TAREAS Y COLABORACIÓN CON OTROS USUARIOS",
+            objetivo: "Automatizar tareas en Excel para optimizar procesos repetitivos y para su uso compartido con otros usuarios.",
+            duracion: 15,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                          header: "Especificaciones para el acceso a datos externos",
+                          body: [
+                            "Acceso a archivos de texto",
+                            "Acceso a bases de datos de Access",
+                            "Actualización de los datos",
+                            "Acceso a datos de la web",
+                            "Obtención y transformación de datos",
+                            "Orígenes de datos disponibles",
+                            "Realización de consultas sencillas",
+                            "Transformaciones más complejas",
+                            "Combinación de tablas"
+                          ]
+                        },
+                        {
+                          header: "Aplicaciones de plantillas y vistas",
+                          body: [
+                            "Utilidad de las plantillas",
+                            "Creación de plantillas",
+                            "Creación de vistas personalizadas",
+                            "Uso de Zoom y otras vistas",
+                            "Acceso y modificación de las propiedades del Libro",
+                            "Protección del Libro"
+                          ]
+                        },
+                        {
+                          header: "Optimización de la colaboración con otros usuarios",
+                          body: [
+                            "Protección del trabajo compartido",
+                            "Creación de un Libro compartido",
+                            "Trabajo en un Libro compartido",
+                            "Uso y manejo del historial de cambios",
+                            "Uso compartido en OneDrive",
+                            "Envío y combinación de libros"
+                          ]
+                        },
+                        {
+                          header: "Desarrollo del análisis de datos y macros",
+                          body: [
+                            "Búsqueda de objetivos",
+                            "Uso de Tablas de datos",
+                            "Uso Escenarios",
+                            "Uso de la herramienta Solver",
+                            "Creación de Macros"
+                          ]
+                        },
+                        {
+                          header: "Especificaciones del trabajo con XML y Excel",
+                          body: [
+                            "Definición del XML",
+                            "Asignaciones XML",
+                            "Importación de datos XML",
+                            "Apertura de documentos XML"
+                          ]
+                        },
+                        {
+                          header: "Identificación de los elementos de un formulario",
+                          body: [
+                            "Conocimiento de los elementos de formularios",
+                            "Creación y uso de formularios",
+                            "Procedimiento para marcar opciones",
+                            "Manejo con formularios",
+                            "Conocimiento de la Rentabilidad de una inversión"
+                          ]
+                        }
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Concienciación de la necesidad de la formación permanente y la inclusión de nuevas tecnologías en el ámbito del entorno laboral.",
+                        "Uso de habilidades de comunicación y demostración de una actitud colaborativa para un eficaz uso compartico de documentos TIC.",
+                        "Capacidad de organización y planificación para abordar el análisis de datos y su presentación en Excel."
+                    ]
+                }
+            ]
+        },
     ]
 }

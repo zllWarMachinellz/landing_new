@@ -72,7 +72,7 @@ export const courses: Course[] = [
     {
         id: '4',
         img: '/imgs/cursos/ada/ada-herramientas-gestio-web.webp',
-        codigo: "[IFCT053PO]",
+        codigo: "IFCT053PO",
         name: 'Herramientas de gestión web (gestión de contenidos)',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -84,7 +84,7 @@ export const courses: Course[] = [
     {
         id: '5',
         img: '/imgs/cursos/ada/ada-informatica.webp',
-        codigo: "[FCOI13]",
+        codigo: "FCOI13",
         name: 'Iniciación a la informática y en competencias digitales básicas',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -97,26 +97,28 @@ export const courses: Course[] = [
     {
         id: '6',
         img: '/imgs/cursos/ada/ada-excel.webp',
-        codigo: "[FCOI28]",
+        codigo: "FCOI27",
         name: 'Aplicación de la hoja de cálculo (Excel). Nivel inicial',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
         init_date: '05-05-2025',
         end_date: '16-05-2025',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "aplicacion-de-la-hoja-de-calculo-excel-inicial"
     },
     {
         id: '7',
         img: '/imgs/cursos/ada/ada-excel-avanzado.webp',
-        codigo: "[FCOI27]",
+        codigo: "FCOI28",
         name: 'Aplicación de la hoja de cálculo (Excel). Nivel avanzado',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
         init_date: '19-05-2025',
         end_date: '21-06-2025',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "aplicacion-de-la-hoja-de-calculo-excel-avanzado"
     },
     {
         id: '8',

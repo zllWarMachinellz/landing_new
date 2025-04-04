@@ -3,7 +3,7 @@
 export interface CursoInfo {
     title: string;
     objetivo: string;
-    requisitosAlumnos: string;
+    requisitosAlumnos: string | Lista;
     modulos:  Modulo[];
 }
 
