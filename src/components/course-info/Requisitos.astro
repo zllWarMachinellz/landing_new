@@ -1,10 +1,20 @@
 ---
+import type { Lista } from "@interfaces/courseInfo.interface";
+import RequisitoInfo from "./RequisitoInfo.astro";
 
-const {requisitos} = Astro.props;
+interface Props {
+    title: string;
+    requisitos: string | Lista;
+}
+const { requisitos, title } = Astro.props;
 ---
-<div class="text-white flex flex-col justify-start max-w-7xl w-full md:pl-0 pl-5 py-10">
-    <h2 class="text-3xl font-bold">{requisitos}</h2>
-    <p class="pl-4 text-xl">
-       ● <slot/>
-    </p>
+
+<div
+    class="text-white flex flex-col justify-start max-w-7xl w-full md:pl-0 pl-5 py-10"
+>
+    <h2 class="text-3xl font-bold pb-2">{title}</h2>
+    {
+        typeof requisitos !== 'object' ? <p>{requisitos}</p>: <RequisitoInfo requisitos={requisitos}/> 
+    }
+    <p class="pl-4 text-xl"></p>
 </div>

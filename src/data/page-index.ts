@@ -2,7 +2,9 @@ import {
     BusquedaGestionInformacionDigital,
     ComunicacionColoboracionConHerramientasDigitales,
     CreacionContenidosDigitales,
-    IniciacionInformatica
+    IniciacionInformatica,
+    AplicacionHojaDeCalculoExcelInicial,
+    AplicacionHojaDeCalculoExcelAvanzado,
 
 
 } from "./couses-info";
@@ -23,5 +25,13 @@ export const indice = [
     {
         slug: 'iniciacion-a-la-informatica-y-en-compentencias-digitales-basicas',
         props: IniciacionInformatica
+    },
+    {
+        slug: 'aplicacion-de-la-hoja-de-calculo-excel-inicial',
+        props: AplicacionHojaDeCalculoExcelInicial,
+    },
+    {
+        slug: 'aplicacion-de-la-hoja-de-calculo-excel-avanzado',
+        props: AplicacionHojaDeCalculoExcelAvanzado,
     }
 ]
