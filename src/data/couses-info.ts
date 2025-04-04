@@ -499,3 +499,193 @@ export const ComunicacionColoboracionConHerramientasDigitales: CursoInfo = {
         }
     ]
 }
+
+export const IniciacionInformatica: CursoInfo = {
+    title: 'Iniciación a la informática y en competencias digitales básicas',
+    objetivo: 'Obtener y procesar información en un ordenador, utilizando las funciones básicas de las aplicaciones informáticas de oficina, así como adquirir competencias digitales básicas que permitan aprovechar las posibilidades asociadas a las tecnologías digitales para el acceso a la información, el procesamiento y uso para la comunicación, la creación de contenidos, la seguridad y la resolución de problemas de acuerdo con el Marco de Competencias Digitales para la Ciudadanía de la Unión Europea.',
+    requisitosAlumnos: 'No se requieren acreditaciones o titulaciones.',
+    modulos: [
+        {
+            titulo: 'INICIACIÓN Y BÚSQUEDA DE INFORMACIÓN EN ENTORNOS DIGITALES',
+            objetivo: 'Adquirir competencias digitales básicas que permitan aprovechar las posibilidades asociadas a las tecnologías digitales para el acceso a la información, búsqueda de información y uso seguro de acuerdo con el Marco de Competencias Digitales para la Ciudadanía de la Unión Europea.',
+            duracion: 13,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Inicio del ordenador y sus elementos principales",
+                          body: [
+                            "Clasificación de los tipos de ordenador según tipo y sistema operativo.",
+                            "Inicio, apagado e hibernación del ordenador.",
+                            "Utilización de las opciones, ajustes y aplicaciones del sistema operativo.",
+                            "Identificación del sistema operativo y su versión desde el menú del ordenador.",
+                            "Localización e inicio de los programas básicos (navegador, explorador de archivos, visor de imágenes, entre otros) que incluye el sistema operativo.",
+                            "Conexión de una impresora al ordenador y comprobación de su funcionamiento."
+                          ]
+                        },
+                        {
+                          header: "Búsqueda y gestión de información en Internet, su almacenamiento y recuperación",
+                          body: [
+                            "Definición de las necesidades de información según las propias necesidades (subvenciones, becas, compra-venta online, proveedores, clientes, gestiones con la Administración, gestiones bancarias, cartelera de cine, búsqueda de cursos, entre otros).",
+                            "Conexión con páginas web de información concretas en escenarios personales definidos (web de compras, noticias, cartelera de espectáculos, entre otros).",
+                            "Conexión con páginas web de información en un escenario laboral definido (portal de empleo, web de la Administración correspondiente, entre otros).",
+                            "Utilización del buscador web (motor de búsqueda) incluido en el ordenador.",
+                            "Realización de búsquedas web según palabras clave.",
+                            "Descarga de los principales navegadores e instalarlos.",
+                            "Realización de búsquedas simples de información y contenidos relacionados con escenarios personales y laborales.",
+                            "Acceso a los datos, información y contenidos ofrecidos en búsquedas y navegar entre ellos.",
+                            "Cotejo de las fuentes de información y reconocimiento de las fuentes confiables y no confiables.",
+                            "Organización, almacenamiento y recuperación de los datos y contenidos de forma sencilla en entornos digitales.",
+                            "Búsqueda de relaciones entre los principales tipos de formato de archivo y el programa correspondiente (texto, imagen y audio, entre otros). Tipos de formato de archivo.",
+                            "Descarga de algún tipo de archivo al ordenador y guardarlo organizando la información de forma sencilla y en un entorno estructurado de carpetas y archivos.",
+                            "Recuperación de los archivos descargados y abrirlos.",
+                            "Almacenamiento en ubicación local, dispositivo extraíble y en repositorio en la nube."
+                          ]
+                        },
+                        {
+                          header: "Utilización de forma segura y responsable de dispositivos en entornos digitales",
+                          body: [
+                            "Descripción de técnicas elementales de protección de dispositivos y sus riesgos y amenazas.",
+                            "Uso de herramientas antivirus, medidas de seguridad y precauciones a seguir.",
+                            "Consulta y protección de los datos personales y privacidad.",
+                            "Gestión de la privacidad limitando los datos a compartir.",
+                            "Protección de la salud y el bienestar en el uso de los entornos digitales. Iluminación, ergonomía y tiempo de uso.",
+                            "Utilización de las técnicas de protección del ciberacoso.",
+                            "Uso de las tecnologías digitales de forma respetuosa con el entorno y con el medioambiente."
+                          ]
+                        }
+                      ],
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Concienciación sobre la necesidad de desarrollar conocimientos, destrezas y actitudes para el uso de los medios digitales y tecnologías de información y comunicación, identificando las propias necesidades personales.',
+                        'Actitud personal positiva frente al uso de las tecnologías digitales.',
+                        'Concienciación sobre la necesidad de conocer la normativa vigente y las medidas de protección y de seguridad en entornos digitales, comprendiendo los riesgos y amenazas existentes.',
+                        'Responsabilidad y autonomía para evitar los riesgos para la salud y amenazas al bienestar físico y psicológico en el uso de las tecnologías digitales.',
+                        'Uso de las tecnologías digitales para el aprendizaje (formal, no formal e informal) a lo largo de la vida.'
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "COMUNICACIÓN Y CREACIÓN DE CONTENIDOS EN ENTORNOS DIGITALES",
+            objetivo: "Adquirir competencias digitales básicas que permitan aprovechar las posibilidades asociadas a las tecnologías digitales para la comunicación, la creación de contenidos y la resolución de problemas de acuerdo con el Marco de Competencias Digitales para la Ciudadanía de la Unión Europea.",
+            duracion: 13,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                          header: "Comunicación y colaboración con otros usuarios mediante tecnologías digitales",
+                          body: [
+                            "Selección de tecnologías digitales para interactuar según necesidades más habituales (email, herramientas de videoconferencia, entre otros).",
+                            "Creación de una cuenta de correo electrónico definiendo usuario y contraseña.",
+                            "Utilización del correo electrónico, introduciendo el usuario y la contraseña. Redacción, envío y recepción de emails.",
+                            "Uso de herramientas de mensajería en el ordenador y dispositivos móviles (a título ilustrativo, SMS, WhatsApp, Telegram, entre otros). Envío y recepción de mensajes.",
+                            "Inicio de reuniones virtuales con herramientas de videoconferencia (a título ilustrativo, Skype, Zoom, entre otros) activando y desactivando audio y video y compartir escritorio.",
+                            "Envío de archivos (imágenes, textos, entre otros) por correo electrónico y herramientas de mensajería instantánea.",
+                            "Comprensión de la propia identidad digital en Internet, analizando sus beneficios y riesgos.",
+                            "Colaboración mediante tecnologías digitales utilizando herramientas colaborativas (foros, chats, blogs, wikis, entre otros).",
+                            "Descripción de las normas de comportamiento en entornos digitales. Netiqueta."
+                          ]
+                        },
+                        {
+                          header: "Creación y edición de contenidos digitales mediante aplicaciones básicas",
+                          body: [
+                            "Uso de un procesador de texto básico (redacción y guardado).",
+                            "Captura, descarga y guardado de una imagen.",
+                            "Utilización de software de creación de imágenes.",
+                            "Conocimientos elementales de los derechos de autor, licencias y permisos de uso.",
+                            "Integración y reelaboración de contenidos digitales."
+                          ]
+                        },
+                        {
+                          header: "Identificación de necesidades digitales y resolución de problemas técnicos elementales",
+                          body: [
+                            "Identificación de los problemas técnicos más frecuentes en entornos digitales.",
+                            "Técnicas de resolución de problemas técnicos (alimentación y conexión de dispositivos y periféricos).",
+                            "Identificación de las necesidades tecnológicas según el entorno y necesidades de uso.",
+                            "Elaboración de respuestas a las necesidades tecnológicas según necesidades de uso identificadas.",
+                            "Uso de la tecnología digital de forma creativa elaborando textos, imágenes, audios o vídeos.",
+                            "Identificación de lagunas en la competencia digital propia.",
+                            "Búsqueda de oportunidades para el autodesarrollo y mantenerse al día con la evolución digital.",
+                            "Apoyo a los demás en el desarrollo de sus competencias digitales básicas."
+                          ]
+                        }
+                      ]                    
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Concienciación sobre la necesidad de desarrollar conocimientos, destrezas yactitudes para el uso de los medios digitales y tecnologías de información y comunicación, identificando las propias necesidades personales.",
+                        "Actitud personal positiva frente al uso de las tecnologías digitales.",
+                        "Sensibilización sobre la importancia de comunicar, compartir recursos en línea, conectar, colaborar e interactuar con otras personas, comunidades y redes en entornos digitales.",
+                        "Uso de las tecnologías digitales para el aprendizaje (formal, no formal e informal) a lo largo de la vida.",
+                        "Sensibilización y responsabilidad con el cumplimiento de las normas relativas a licencias de uso y derechos de autor."
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "INICIACIÓN A LA INFORMÁTICA",
+            objetivo: "Obtener y procesar información en un ordenador, utilizando las funciones básicas de las aplicaciones informáticas de oficina.",
+            duracion: 14,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                          header: "Manejo de archivos",
+                          body: [
+                            "Tipos de archivos: de configuración, de sistema, de programas, de texto, de imagen, de audio, de video.",
+                            "Visualización de archivos y carpetas.",
+                            "Almacenamiento y recuperación."
+                          ]
+                        },
+                        {
+                          header: "Utilización básica de aplicaciones ofimáticas",
+                          body: [
+                            "Creación de un fichero de texto con un editor sencillo. Aplicación de formato de texto.",
+                            "Creación de un fichero de imagen con un editor sencillo. Tratamiento básico de la imagen. Características de los formatos de imagen en Internet: GIF y JPG.",
+                            "Integración de texto e imagen en un documento.",
+                            "Impresión de documentos.",
+                            "Del ordenador personal a sistemas multiusuario.",
+                            "Ventajas del trabajo en red: compartir recursos físicos y lógicos, comunicación con otros usuarios, transferencia de información."
+                          ]
+                        },
+                        {
+                          header: "Ejecución de las funciones y comandos principales del sistema operativo"
+                        },
+                        {
+                          header: "Ejecución de las funciones principales del explorador de archivos: copiar, mover, borrar ficheros"
+                        },
+                        {
+                          header: "Utilización de las funciones principales de un editor de texto"
+                        },
+                        {
+                          header: "Utilización de las funciones principales de un editor de imagen"
+                        },
+                        {
+                          header: "Obtención de documentos con texto e imagen"
+                        },
+                        {
+                          header: "Selección y configuración del dispositivo y los periféricos más usuales"
+                        },
+                        {
+                          header: "Impresión de documentos"
+                        }
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Iniciativa y actitud activa en la optimización de los datos e informaciones obtenidas en la red.",
+                        "Destreza operativa de teclados y manejo eficiente de datos informáticos",
+                    ]
+                }
+            ]
+        }
+    ]
+}
