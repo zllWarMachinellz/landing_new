@@ -91,7 +91,8 @@ export const courses: Course[] = [
         init_date: '14-04-2025',
         end_date: '02-05-2025',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "iniciacion-a-la-informatica-y-en-compentencias-digitales-basicas"
     },
     {
         id: '6',
