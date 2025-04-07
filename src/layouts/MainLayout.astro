@@ -1,8 +1,7 @@
 ---
 import "../styles/global.css";
 
-const {title, description, image, url} = Astro.props;
-
+const { title, description, image, url } = Astro.props;
 ---
 
 <!doctype html>
@@ -13,20 +12,28 @@ const {title, description, image, url} = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<meta name="description" content={description}>
+		<meta name="description" content={description} />
 
 		<!-- Open Graph -->
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content={description} />
-		<meta property="og:image" content={`https://cursogratisonline.com/${image}`} />
+		<meta
+			property="og:image"
+			content={`https://cursogratisonline.com/${image}`}
+		/>
 		<meta property="og:url" content={url} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
 		<meta property="og:type" content="website" />
 
 		<!-- Twitter Card -->
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
-		<meta name="twitter:image" content={`https://cursogratisonline.com/${image}`} />
+		<meta
+			name="twitter:image"
+			content={`https://cursogratisonline.com/${image}`}
+		/>
 		<!-- -- -->
 	</head>
 	<body class="m-auto min-h-screen bg-gray-100">
@@ -34,5 +41,4 @@ const {title, description, image, url} = Astro.props;
 			<slot />
 		</main>
 	</body>
-
-	</html>
+</html>
