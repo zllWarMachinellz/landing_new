@@ -16,22 +16,22 @@ export const indice = [
     },
     {
         slug: 'gestion-informacion-digital',
-        props: BusquedaGestionInformacionDigital
+        props: {content: BusquedaGestionInformacionDigital, course: courses[1]}
     },
     {
         slug: 'comunicacion-herramientas-digitales',
-        props: ComunicacionColoboracionConHerramientasDigitales
+        props: {content: ComunicacionColoboracionConHerramientasDigitales, course: courses[2]}
     },
     {
         slug: 'competencias-digitales-basicas',
-        props: IniciacionInformatica
+        props: {content: IniciacionInformatica, course: courses[4]}
     },
     {
         slug: 'excel-inicial',
-        props: AplicacionHojaDeCalculoExcelInicial,
+        props: {content: AplicacionHojaDeCalculoExcelInicial, course: courses[5]},
     },
     {
         slug: 'excel-avanzado',
-        props: AplicacionHojaDeCalculoExcelAvanzado,
+        props: {content: AplicacionHojaDeCalculoExcelAvanzado, course: courses[6]},
     }
 ]
