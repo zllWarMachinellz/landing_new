@@ -41,7 +41,7 @@ export const courses: Course[] = [
         end_date: '28-03-2025',
         requirements: socAda,
         estado: true,
-        slug: "creacion-de-contenidos-digitales",
+        slug: "creacion-contenidos-digitales",
     },
     {
         id: '2',
@@ -54,7 +54,7 @@ export const courses: Course[] = [
         end_date: 'Por definir',
         requirements: socAda,
         estado: true,
-        slug: "busqueda-gestion-de-la-informacion-digital"
+        slug: "gestion-informacion-digital"
     },
     {
         id: '3',
@@ -67,7 +67,7 @@ export const courses: Course[] = [
         end_date: 'Por definir',
         requirements: socAda,
         estado: true,
-        slug: "comunicacion-colaboracion-con-herramientas-digitales"
+        slug: "comunicacion-herramientas-digitales"
     },
     {
         id: '4',
@@ -92,7 +92,7 @@ export const courses: Course[] = [
         end_date: '02-05-2025',
         requirements: socAda,
         estado: true,
-        slug: "iniciacion-a-la-informatica-y-en-compentencias-digitales-basicas"
+        slug: "competencias-digitales-basicas"
     },
     {
         id: '6',
@@ -105,7 +105,7 @@ export const courses: Course[] = [
         end_date: '16-05-2025',
         requirements: socAda,
         estado: true,
-        slug: "aplicacion-de-la-hoja-de-calculo-excel-inicial"
+        slug: "excel-inicial"
     },
     {
         id: '7',
@@ -118,7 +118,7 @@ export const courses: Course[] = [
         end_date: '21-06-2025',
         requirements: socAda,
         estado: true,
-        slug: "aplicacion-de-la-hoja-de-calculo-excel-avanzado"
+        slug: "excel-avanzado"
     },
     {
         id: '8',

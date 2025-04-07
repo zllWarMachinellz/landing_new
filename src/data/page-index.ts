@@ -11,27 +11,27 @@ import {
 
 export const indice = [
     {
-        slug: 'creacion-de-contenidos-digitales',
+        slug: 'creacion-contenidos-digitales',
         props: CreacionContenidosDigitales
     },
     {
-        slug: 'busqueda-gestion-de-la-informacion-digital',
+        slug: 'gestion-informacion-digital',
         props: BusquedaGestionInformacionDigital
     },
     {
-        slug: 'comunicacion-colaboracion-con-herramientas-digitales',
+        slug: 'comunicacion-herramientas-digitales',
         props: ComunicacionColoboracionConHerramientasDigitales
     },
     {
-        slug: 'iniciacion-a-la-informatica-y-en-compentencias-digitales-basicas',
+        slug: 'competencias-digitales-basicas',
         props: IniciacionInformatica
     },
     {
-        slug: 'aplicacion-de-la-hoja-de-calculo-excel-inicial',
+        slug: 'excel-inicial',
         props: AplicacionHojaDeCalculoExcelInicial,
     },
     {
-        slug: 'aplicacion-de-la-hoja-de-calculo-excel-avanzado',
+        slug: 'excel-avanzado',
         props: AplicacionHojaDeCalculoExcelAvanzado,
     }
 ]
