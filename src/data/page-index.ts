@@ -5,14 +5,14 @@ import {
     IniciacionInformatica,
     AplicacionHojaDeCalculoExcelInicial,
     AplicacionHojaDeCalculoExcelAvanzado,
-
-
 } from "./couses-info";
+
+import {courses} from "./cursos"
 
 export const indice = [
     {
         slug: 'creacion-contenidos-digitales',
-        props: CreacionContenidosDigitales
+        props: {content:CreacionContenidosDigitales, course: courses[0]} 
     },
     {
         slug: 'gestion-informacion-digital',
