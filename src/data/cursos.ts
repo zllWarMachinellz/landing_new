@@ -123,7 +123,7 @@ export const courses: Course[] = [
     {
         id: '8',
         img: '/imgs/cursos/ada/ada-word-avanzado.webp',
-        codigo: "[ADGG084PO]",
+        codigo: "ADGG084PO",
         name: 'Aplicación de documentos de texto (Word). Nivel avanzado',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
@@ -135,26 +135,28 @@ export const courses: Course[] = [
     {
         id: '9',
         img: '/imgs/cursos/ada/ada-sap-modulsd.webp',
-        codigo: "[IFCT83]",
+        codigo: "IFCT83",
         name: 'SAP - Módulo SD, ventas y distribución - nivel usuario',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
         init_date: '07-03-2025',
         end_date: '18-03-2025',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "sap-ventas-distribucion"
     },
     {
         id: '10',
         img: '/imgs/cursos/ada/ada-sap-modulomm.webp',
-        codigo: "[IFCT82]",
+        codigo: "IFCT82",
         name: 'SAP - Módulo MM, gestión de materiales - nivel usuario',
         hours: 40,
         entidad_subvencion: "/imgs/logos/logo-socs.svg",
         init_date: '31-03-2025',
         end_date: '10-04-2025',
         requirements: socAda,
-        estado: true
+        estado: true,
+        slug: "sap-gestion-materiales"
     },
     {
         id: '11',
