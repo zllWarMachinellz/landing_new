@@ -5,6 +5,8 @@ import {
     IniciacionInformatica,
     AplicacionHojaDeCalculoExcelInicial,
     AplicacionHojaDeCalculoExcelAvanzado,
+    ModuloSdVentasDistribucion,
+    ModuloMmGestionMateriales
 } from "./couses-info";
 
 import {courses} from "./cursos"
@@ -33,5 +35,13 @@ export const indice = [
     {
         slug: 'excel-avanzado',
         props: {content: AplicacionHojaDeCalculoExcelAvanzado, course: courses[6]},
+    },
+    {
+        slug: 'sap-ventas-distribucion',
+        props: {content: ModuloSdVentasDistribucion, course: courses[8]},
+    },
+    {
+        slug: 'sap-gestion-materiales',
+        props: {content: ModuloMmGestionMateriales, course: courses[9]},
     }
 ]

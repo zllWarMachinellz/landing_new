@@ -1097,3 +1097,238 @@ export const AplicacionHojaDeCalculoExcelAvanzado: CursoInfo = {
         },
     ]
 }
+
+export const ModuloSdVentasDistribucion: CursoInfo = {
+    title: 'SAP - Módulo SD, ventas y distribución. Nivel usuario',
+    objetivo: 'Utilizar las prestaciones generales del programa SAP y específicas del módulo SD con la finalidad de explotar la información de negocio y tomar decisiones de forma autónoma en la gestión de las ventas y la distribución.',
+    requisitosAlumnos:{
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Técnico de familias profesionales de Administración y gestión, Comercio y Marketing, Informática y comunicaciones.",
+            "Certificado de Profesionalidad de nivel 2 de familias profesionales de Administración y gestión, Comercio y Marketing, Informática y comunicaciones.",
+            "Si no dispone del nivel académico indicado, demostrará conocimientos y competencias suficientes para participar en el curso con aprovechamiento mediante una prueba de acceso.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'FUNCIONES GENERALES DE SAP',
+            objetivo: 'Utilizar las prestaciones generales del programa SAP.',
+            duracion: 5,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Concepto y funcionamiento de SAP",
+                          body: [
+                            "Historia de SAP",
+                            "Estructura y concepto de un ERP.",
+                            "EDI Intercambio de información con otras aplicaciones.",
+                          ]
+                        },
+                        {
+                          header: "Uso de Queries",
+                          body: [
+                            "Relacionar diferentes ficheros de información en SAP.",
+                            "Crear registro info.",
+                          ]
+                        },
+                        {
+                          header: "Uso de Report painter",
+                          body: [
+                            "Diseño del “front office” de los listados de la información.",
+                          ]
+                        }
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Predisposición activa al aprendizaje y adaptación al cambio',
+                        'Adquisición de capacidad de pensamiento lógico.',
+                        'Intercambio de información y experiencia para conseguir objetivos individuales o en equipo.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "MÓDULO SD – VENTAS Y DISTRIBUCIÓN",
+            objetivo: "Llevar a cabo las operaciones habituales de ventas y distribución con el módulo SD de SAP.",
+            duracion: 35,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                          header: "Oferta a clientes",
+                          body: [
+                            "Creación de ofertas a clientes genéricos",
+                            "Creación de ofertas a clientes concretos"
+                          ]
+                        },
+                        {
+                          header: "Gestión de pedidos",
+                          body: [
+                            "Gestión de pedidos a clientes",
+                            "Gestión de pedidos a clientes potenciales",
+                            "Gestión de pedidos a clientes con anticipo",
+                            "Gestión de artículos de consignación",
+                            "Gestión de pedidos a cliente con facturación colectiva",
+                            "Gestión de pedidos a cliente multinacional",
+                            "Gestión de crédito",
+                            "Gestión de embalajes en préstamo"
+                          ]
+                        },
+                        {
+                          header: "Procesos de venta",
+                          body: [
+                            "Ventas a cliente",
+                            "Proceso de exportación – comercio internacional",
+                            "Aviso de entrega",
+                            "Cierre de operaciones"
+                          ]
+                        },
+                        {
+                          header: "Procesos de facturación",
+                          body: [
+                            "Entrega de mercancías gratuita",
+                            "Devoluciones y reclamaciones",
+                            "Notas de cargo a cliente",
+                            "Notas de abono",
+                            "Bonificación en especie",
+                            "Recuperación de lotes",
+                            "Gestión del transporte",
+                            "Gastos de transporte",
+                            "Informes logísticos"
+                          ]
+                        }
+                      ]                      
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Predisposición activa al aprendizaje y adaptación al cambio.",
+                        "Adquisición de capacidad de pensamiento lógico.",
+                        "Intercambio de información y experiencia para conseguir objetivos individuales o en equipo."
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
+export const ModuloMmGestionMateriales: CursoInfo = {
+    title: 'SAP - Módulo MM, Gestión de materiales. Nivel usuario',
+    objetivo: 'Utilizar las prestaciones generales del programa SAP y específicas del módulo MM con la finalidad de explotar la información de negocio y tomar decisiones de forma autónoma en la gestión de materiales.',
+    requisitosAlumnos:{
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Técnico de familias profesionales de Administración y gestión, Comercio y Marketing, Informática y comunicaciones.",
+            "Certificado de Profesionalidad de nivel 2 de familias profesionales de Administración y gestión, Comercio y Marketing, Informática y comunicaciones.",
+            "Si no dispone del nivel académico indicado, demostrará conocimientos y competencias suficientes para participar en el curso con aprovechamiento mediante una prueba de acceso.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'FUNCIONES GENERALES DE SAP',
+            objetivo: 'Utilizar las prestaciones generales del programa SAP.',
+            duracion: 5,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Concepto y funcionamiento de SAP",
+                          body: [
+                            "Historia de SAP",
+                            "Estructura y concepto de un ERP.",
+                            "EDI Intercambio de información con otras aplicaciones.",
+                          ]
+                        },
+                        {
+                          header: "Uso de Queries",
+                          body: [
+                            "Relacionar diferentes ficheros de información en SAP.",
+                            "Crear registro info.",
+                          ]
+                        },
+                        {
+                          header: "Uso de Report painter",
+                          body: [
+                            "Diseño del “front office” de los listados de la información.",
+                          ]
+                        }
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Predisposición activa al aprendizaje y adaptación al cambio',
+                        'Adquisición de capacidad de pensamiento lógico.',
+                        'Intercambio de información y experiencia para conseguir objetivos individuales o en equipo.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "MÓDULO MM - GESTIÓN DE MATERIALES",
+            objetivo: "Llevar a cabo las operaciones habituales en la gestión de materiales con el módulo MM de SAP.",
+            duracion: 35,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                          header: "Gestión de stocks",
+                          body: [
+                            "Gestión de stocks por cantidad",
+                            "Gestión de stocks por valor"
+                          ]
+                        },
+                        {
+                          header: "Oferta de aprovisionamiento",
+                          body: [
+                            "Realización de aprovisionamiento a proveedores"
+                          ]
+                        },
+                        {
+                          header: "Tipología del aprovisionamiento",
+                          body: [
+                            "Aprovisionamiento interno con entrega",
+                            "Aprovisionamiento interno sin entrega",
+                            "Aprovisionamiento interno multi sociedad",
+                            "Aprovisionamiento y gestión de stock en artículos de consignación",
+                            "Aprovisionamiento por stock",
+                            "Servicios de aprovisionamiento externo",
+                            "Aprovisionamiento externo",
+                            "Pedido abierto de aprovisionamiento"
+                          ]
+                        },
+                        {
+                          header: "Realización de diferentes procesos asociados al aprovisionamiento",
+                          body: [
+                            "Subcontratación",
+                            "Inventario físico",
+                            "Compras de consumibles",
+                            "Devolución a proveedor",
+                            "Alta de activos",
+                            "Informes"
+                          ]
+                        }
+                      ]                                            
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Predisposición activa al aprendizaje y adaptación al cambio.",
+                        "Adquisición de capacidad de pensamiento lógico.",
+                        "Intercambio de información y experiencia para conseguir objetivos individuales o en equipo."
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
