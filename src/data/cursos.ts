@@ -161,38 +161,42 @@ export const courses: Course[] = [
     {
         id: '11',
         img: '/imgs/cursos/sectorial/sectorial-comercio-exterior.webp',
-        codigo: "[COMT0015]",
+        codigo: "COMT0015",
         name: 'Gestión del comercio exterior curso virtual',
         hours: 40,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "14-03-2025",
         end_date: "02-04-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: 'gestion-comercio-exterior'
     },
     {
         id: '12',
         img: '/imgs/cursos/sectorial/sectorial-gestion-empresa.webp',
-        codigo: "[ADGD0040]",
+        codigo: "ADGD0040",
         name: 'Gestión fiscal de empresa curso virtual',
         hours: 40,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "04-04-2025",
         end_date: "22-04-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: 'gestion-fiscal-empresa'
     },
     {
         id: '13',
         img: '/imgs/cursos/sectorial/sectorial-fiscalidad-operativa.webp',
-        codigo: "[ADGN0010]",
+        codigo: "ADGN0010",
         name: 'Fiscalidad operativa curso virtual',
         hours: 60,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "24-04-2025",
         end_date: "14-05-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: 'fiscalidad-operativa'
+        
     },
     {
         id: '14',

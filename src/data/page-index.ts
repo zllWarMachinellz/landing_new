@@ -6,7 +6,10 @@ import {
     AplicacionHojaDeCalculoExcelInicial,
     AplicacionHojaDeCalculoExcelAvanzado,
     ModuloSdVentasDistribucion,
-    ModuloMmGestionMateriales
+    ModuloMmGestionMateriales,
+    GestionComercioExterior,
+    GestionFiscalEmpresa,
+    FiscalidadOperativa
 } from "./couses-info";
 
 import {courses} from "./cursos"
@@ -43,5 +46,17 @@ export const indice = [
     {
         slug: 'sap-gestion-materiales',
         props: {content: ModuloMmGestionMateriales, course: courses[9]},
-    }
+    },
+    {
+        slug: 'gestion-comercio-exterior',
+        props: {content: GestionComercioExterior, course: courses[10] }
+    },
+    {
+        slug: 'gestion-fiscal-empresa',
+        props: {content: GestionFiscalEmpresa, course: courses[11] }
+    },
+    {
+        slug: 'fiscalidad-operativa',
+        props: {content: FiscalidadOperativa, course: courses[12] }
+    },
 ]
