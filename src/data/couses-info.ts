@@ -901,7 +901,7 @@ export const AplicacionHojaDeCalculoExcelInicial: CursoInfo = {
 export const AplicacionHojaDeCalculoExcelAvanzado: CursoInfo = {
     title: 'Aplicación de la hoja de cálculo Excel. Nivel avanzado',
     objetivo: 'Elaborar hojas de cálculo complejas con Excel, manejando las herramientas y funciones más avanzadas, automatizando tareas y compartiendo información con otras aplicaciones y usuarios.',
-    requisitosAlumnos:{
+    requisitosAlumnos: {
         header: "Cumplir como mínimo alguno de los siguientes requisitos",
         body: [
             "Certificado de profesionalidad de nivel 1.",
@@ -925,80 +925,80 @@ export const AplicacionHojaDeCalculoExcelAvanzado: CursoInfo = {
                     title: 'Conocimientos/ Capacidades cognitivas y prácticas',
                     listas: [
                         {
-                          header: "Especificaciones para el uso de listas",
-                          body: [
-                            "Conceptos básicos",
-                            "Autocompletado de listas",
-                            "Manejo de formularios",
-                            "Ordenación de listas",
-                            "Validación de datos",
-                            "Extensión de formatos y fórmulas"
-                          ]
+                            header: "Especificaciones para el uso de listas",
+                            body: [
+                                "Conceptos básicos",
+                                "Autocompletado de listas",
+                                "Manejo de formularios",
+                                "Ordenación de listas",
+                                "Validación de datos",
+                                "Extensión de formatos y fórmulas"
+                            ]
                         },
                         {
-                          header: "Uso de filtros y tablas",
-                          body: [
-                            "Filtrado de datos",
-                            "Manejo de filtros avanzados",
-                            "Copiar datos filtrados",
-                            "Manejo de listas filtradas",
-                            "Manejo de tablas"
-                          ]
+                            header: "Uso de filtros y tablas",
+                            body: [
+                                "Filtrado de datos",
+                                "Manejo de filtros avanzados",
+                                "Copiar datos filtrados",
+                                "Manejo de listas filtradas",
+                                "Manejo de tablas"
+                            ]
                         },
                         {
-                          header: "Manejo de subtotales",
-                          body: [
-                            "Subtotales automáticos",
-                            "Organización de subtotales",
-                            "Gráficos con subtotales",
-                            "Subtotales avanzados"
-                          ]
+                            header: "Manejo de subtotales",
+                            body: [
+                                "Subtotales automáticos",
+                                "Organización de subtotales",
+                                "Gráficos con subtotales",
+                                "Subtotales avanzados"
+                            ]
                         },
                         {
-                          header: "Aplicación de fórmulas con opciones avanzadas",
-                          body: [
-                            "Detección de errores en las fórmulas",
-                            "Auditoría de fórmulas",
-                            "Inserción de comentarios y ecuaciones",
-                            "Control del cálculo",
-                            "Funciones de búsqueda"
-                          ]
+                            header: "Aplicación de fórmulas con opciones avanzadas",
+                            body: [
+                                "Detección de errores en las fórmulas",
+                                "Auditoría de fórmulas",
+                                "Inserción de comentarios y ecuaciones",
+                                "Control del cálculo",
+                                "Funciones de búsqueda"
+                            ]
                         },
                         {
-                          header: "Creación de gráficos con opciones avanzadas",
-                          body: [
-                            "Gráficos 3D y plantillas de gráfico.",
-                            "Elementos del gráfico",
-                            "Datos en un eje secundario",
-                            "Imágenes en gráficos",
-                            "Inserción de minigráficos",
-                            "Impresión de gráficos"
-                          ]
+                            header: "Creación de gráficos con opciones avanzadas",
+                            body: [
+                                "Gráficos 3D y plantillas de gráfico.",
+                                "Elementos del gráfico",
+                                "Datos en un eje secundario",
+                                "Imágenes en gráficos",
+                                "Inserción de minigráficos",
+                                "Impresión de gráficos"
+                            ]
                         },
                         {
-                          header: "Aplicación de funciones con opciones avanzadas",
-                          body: [
-                            "Alternativas para un mismo cálculo",
-                            "Contado de celdas en blanco",
-                            "Consolidación con referencias 3D",
-                            "Anidamiento de funciones condicionales",
-                            "Cálculo de totales con fórmulas",
-                            "Cálculo de totales con criterios",
-                            "Búsqueda de registros",
-                            "Funciones de pago de intereses y de capital"
-                          ]
+                            header: "Aplicación de funciones con opciones avanzadas",
+                            body: [
+                                "Alternativas para un mismo cálculo",
+                                "Contado de celdas en blanco",
+                                "Consolidación con referencias 3D",
+                                "Anidamiento de funciones condicionales",
+                                "Cálculo de totales con fórmulas",
+                                "Cálculo de totales con criterios",
+                                "Búsqueda de registros",
+                                "Funciones de pago de intereses y de capital"
+                            ]
                         },
                         {
-                          header: "Manejo de tablas y gráficos dinámicos",
-                          body: [
-                            "Creación de tablas dinámicas",
-                            "Uso de tablas dinámicas",
-                            "Segmentación de datos",
-                            "Actualización y gráficos dinámicos",
-                            "Consolidación de datos"
-                          ]
+                            header: "Manejo de tablas y gráficos dinámicos",
+                            body: [
+                                "Creación de tablas dinámicas",
+                                "Uso de tablas dinámicas",
+                                "Segmentación de datos",
+                                "Actualización y gráficos dinámicos",
+                                "Consolidación de datos"
+                            ]
                         }
-                      ]
+                    ]
                 },
                 {
                     title: 'Habilidades de gestión, personales y sociales',
@@ -1019,71 +1019,71 @@ export const AplicacionHojaDeCalculoExcelAvanzado: CursoInfo = {
                     title: "Conocimientos/ Capacidades cognitivas y prácticas",
                     listas: [
                         {
-                          header: "Especificaciones para el acceso a datos externos",
-                          body: [
-                            "Acceso a archivos de texto",
-                            "Acceso a bases de datos de Access",
-                            "Actualización de los datos",
-                            "Acceso a datos de la web",
-                            "Obtención y transformación de datos",
-                            "Orígenes de datos disponibles",
-                            "Realización de consultas sencillas",
-                            "Transformaciones más complejas",
-                            "Combinación de tablas"
-                          ]
+                            header: "Especificaciones para el acceso a datos externos",
+                            body: [
+                                "Acceso a archivos de texto",
+                                "Acceso a bases de datos de Access",
+                                "Actualización de los datos",
+                                "Acceso a datos de la web",
+                                "Obtención y transformación de datos",
+                                "Orígenes de datos disponibles",
+                                "Realización de consultas sencillas",
+                                "Transformaciones más complejas",
+                                "Combinación de tablas"
+                            ]
                         },
                         {
-                          header: "Aplicaciones de plantillas y vistas",
-                          body: [
-                            "Utilidad de las plantillas",
-                            "Creación de plantillas",
-                            "Creación de vistas personalizadas",
-                            "Uso de Zoom y otras vistas",
-                            "Acceso y modificación de las propiedades del Libro",
-                            "Protección del Libro"
-                          ]
+                            header: "Aplicaciones de plantillas y vistas",
+                            body: [
+                                "Utilidad de las plantillas",
+                                "Creación de plantillas",
+                                "Creación de vistas personalizadas",
+                                "Uso de Zoom y otras vistas",
+                                "Acceso y modificación de las propiedades del Libro",
+                                "Protección del Libro"
+                            ]
                         },
                         {
-                          header: "Optimización de la colaboración con otros usuarios",
-                          body: [
-                            "Protección del trabajo compartido",
-                            "Creación de un Libro compartido",
-                            "Trabajo en un Libro compartido",
-                            "Uso y manejo del historial de cambios",
-                            "Uso compartido en OneDrive",
-                            "Envío y combinación de libros"
-                          ]
+                            header: "Optimización de la colaboración con otros usuarios",
+                            body: [
+                                "Protección del trabajo compartido",
+                                "Creación de un Libro compartido",
+                                "Trabajo en un Libro compartido",
+                                "Uso y manejo del historial de cambios",
+                                "Uso compartido en OneDrive",
+                                "Envío y combinación de libros"
+                            ]
                         },
                         {
-                          header: "Desarrollo del análisis de datos y macros",
-                          body: [
-                            "Búsqueda de objetivos",
-                            "Uso de Tablas de datos",
-                            "Uso Escenarios",
-                            "Uso de la herramienta Solver",
-                            "Creación de Macros"
-                          ]
+                            header: "Desarrollo del análisis de datos y macros",
+                            body: [
+                                "Búsqueda de objetivos",
+                                "Uso de Tablas de datos",
+                                "Uso Escenarios",
+                                "Uso de la herramienta Solver",
+                                "Creación de Macros"
+                            ]
                         },
                         {
-                          header: "Especificaciones del trabajo con XML y Excel",
-                          body: [
-                            "Definición del XML",
-                            "Asignaciones XML",
-                            "Importación de datos XML",
-                            "Apertura de documentos XML"
-                          ]
+                            header: "Especificaciones del trabajo con XML y Excel",
+                            body: [
+                                "Definición del XML",
+                                "Asignaciones XML",
+                                "Importación de datos XML",
+                                "Apertura de documentos XML"
+                            ]
                         },
                         {
-                          header: "Identificación de los elementos de un formulario",
-                          body: [
-                            "Conocimiento de los elementos de formularios",
-                            "Creación y uso de formularios",
-                            "Procedimiento para marcar opciones",
-                            "Manejo con formularios",
-                            "Conocimiento de la Rentabilidad de una inversión"
-                          ]
+                            header: "Identificación de los elementos de un formulario",
+                            body: [
+                                "Conocimiento de los elementos de formularios",
+                                "Creación y uso de formularios",
+                                "Procedimiento para marcar opciones",
+                                "Manejo con formularios",
+                                "Conocimiento de la Rentabilidad de una inversión"
+                            ]
                         }
-                      ]
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -1101,7 +1101,7 @@ export const AplicacionHojaDeCalculoExcelAvanzado: CursoInfo = {
 export const ModuloSdVentasDistribucion: CursoInfo = {
     title: 'SAP - Módulo SD, ventas y distribución. Nivel usuario',
     objetivo: 'Utilizar las prestaciones generales del programa SAP y específicas del módulo SD con la finalidad de explotar la información de negocio y tomar decisiones de forma autónoma en la gestión de las ventas y la distribución.',
-    requisitosAlumnos:{
+    requisitosAlumnos: {
         header: "Cumplir como mínimo alguno de los siguientes requisitos",
         body: [
             "Técnico de familias profesionales de Administración y gestión, Comercio y Marketing, Informática y comunicaciones.",
@@ -1120,27 +1120,27 @@ export const ModuloSdVentasDistribucion: CursoInfo = {
                     title: 'Conocimientos/ Capacidades cognitivas y prácticas',
                     listas: [
                         {
-                          header: "Concepto y funcionamiento de SAP",
-                          body: [
-                            "Historia de SAP",
-                            "Estructura y concepto de un ERP.",
-                            "EDI Intercambio de información con otras aplicaciones.",
-                          ]
+                            header: "Concepto y funcionamiento de SAP",
+                            body: [
+                                "Historia de SAP",
+                                "Estructura y concepto de un ERP.",
+                                "EDI Intercambio de información con otras aplicaciones.",
+                            ]
                         },
                         {
-                          header: "Uso de Queries",
-                          body: [
-                            "Relacionar diferentes ficheros de información en SAP.",
-                            "Crear registro info.",
-                          ]
+                            header: "Uso de Queries",
+                            body: [
+                                "Relacionar diferentes ficheros de información en SAP.",
+                                "Crear registro info.",
+                            ]
                         },
                         {
-                          header: "Uso de Report painter",
-                          body: [
-                            "Diseño del “front office” de los listados de la información.",
-                          ]
+                            header: "Uso de Report painter",
+                            body: [
+                                "Diseño del “front office” de los listados de la información.",
+                            ]
                         }
-                      ]
+                    ]
                 },
                 {
                     title: 'Habilidades de gestión, personales y sociales',
@@ -1161,49 +1161,49 @@ export const ModuloSdVentasDistribucion: CursoInfo = {
                     title: "Conocimientos/ Capacidades cognitivas y prácticas",
                     listas: [
                         {
-                          header: "Oferta a clientes",
-                          body: [
-                            "Creación de ofertas a clientes genéricos",
-                            "Creación de ofertas a clientes concretos"
-                          ]
+                            header: "Oferta a clientes",
+                            body: [
+                                "Creación de ofertas a clientes genéricos",
+                                "Creación de ofertas a clientes concretos"
+                            ]
                         },
                         {
-                          header: "Gestión de pedidos",
-                          body: [
-                            "Gestión de pedidos a clientes",
-                            "Gestión de pedidos a clientes potenciales",
-                            "Gestión de pedidos a clientes con anticipo",
-                            "Gestión de artículos de consignación",
-                            "Gestión de pedidos a cliente con facturación colectiva",
-                            "Gestión de pedidos a cliente multinacional",
-                            "Gestión de crédito",
-                            "Gestión de embalajes en préstamo"
-                          ]
+                            header: "Gestión de pedidos",
+                            body: [
+                                "Gestión de pedidos a clientes",
+                                "Gestión de pedidos a clientes potenciales",
+                                "Gestión de pedidos a clientes con anticipo",
+                                "Gestión de artículos de consignación",
+                                "Gestión de pedidos a cliente con facturación colectiva",
+                                "Gestión de pedidos a cliente multinacional",
+                                "Gestión de crédito",
+                                "Gestión de embalajes en préstamo"
+                            ]
                         },
                         {
-                          header: "Procesos de venta",
-                          body: [
-                            "Ventas a cliente",
-                            "Proceso de exportación – comercio internacional",
-                            "Aviso de entrega",
-                            "Cierre de operaciones"
-                          ]
+                            header: "Procesos de venta",
+                            body: [
+                                "Ventas a cliente",
+                                "Proceso de exportación – comercio internacional",
+                                "Aviso de entrega",
+                                "Cierre de operaciones"
+                            ]
                         },
                         {
-                          header: "Procesos de facturación",
-                          body: [
-                            "Entrega de mercancías gratuita",
-                            "Devoluciones y reclamaciones",
-                            "Notas de cargo a cliente",
-                            "Notas de abono",
-                            "Bonificación en especie",
-                            "Recuperación de lotes",
-                            "Gestión del transporte",
-                            "Gastos de transporte",
-                            "Informes logísticos"
-                          ]
+                            header: "Procesos de facturación",
+                            body: [
+                                "Entrega de mercancías gratuita",
+                                "Devoluciones y reclamaciones",
+                                "Notas de cargo a cliente",
+                                "Notas de abono",
+                                "Bonificación en especie",
+                                "Recuperación de lotes",
+                                "Gestión del transporte",
+                                "Gastos de transporte",
+                                "Informes logísticos"
+                            ]
                         }
-                      ]                      
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -1221,7 +1221,7 @@ export const ModuloSdVentasDistribucion: CursoInfo = {
 export const ModuloMmGestionMateriales: CursoInfo = {
     title: 'SAP - Módulo MM, Gestión de materiales. Nivel usuario',
     objetivo: 'Utilizar las prestaciones generales del programa SAP y específicas del módulo MM con la finalidad de explotar la información de negocio y tomar decisiones de forma autónoma en la gestión de materiales.',
-    requisitosAlumnos:{
+    requisitosAlumnos: {
         header: "Cumplir como mínimo alguno de los siguientes requisitos",
         body: [
             "Técnico de familias profesionales de Administración y gestión, Comercio y Marketing, Informática y comunicaciones.",
@@ -1240,27 +1240,27 @@ export const ModuloMmGestionMateriales: CursoInfo = {
                     title: 'Conocimientos/ Capacidades cognitivas y prácticas',
                     listas: [
                         {
-                          header: "Concepto y funcionamiento de SAP",
-                          body: [
-                            "Historia de SAP",
-                            "Estructura y concepto de un ERP.",
-                            "EDI Intercambio de información con otras aplicaciones.",
-                          ]
+                            header: "Concepto y funcionamiento de SAP",
+                            body: [
+                                "Historia de SAP",
+                                "Estructura y concepto de un ERP.",
+                                "EDI Intercambio de información con otras aplicaciones.",
+                            ]
                         },
                         {
-                          header: "Uso de Queries",
-                          body: [
-                            "Relacionar diferentes ficheros de información en SAP.",
-                            "Crear registro info.",
-                          ]
+                            header: "Uso de Queries",
+                            body: [
+                                "Relacionar diferentes ficheros de información en SAP.",
+                                "Crear registro info.",
+                            ]
                         },
                         {
-                          header: "Uso de Report painter",
-                          body: [
-                            "Diseño del “front office” de los listados de la información.",
-                          ]
+                            header: "Uso de Report painter",
+                            body: [
+                                "Diseño del “front office” de los listados de la información.",
+                            ]
                         }
-                      ]
+                    ]
                 },
                 {
                     title: 'Habilidades de gestión, personales y sociales',
@@ -1281,43 +1281,43 @@ export const ModuloMmGestionMateriales: CursoInfo = {
                     title: "Conocimientos/ Capacidades cognitivas y prácticas",
                     listas: [
                         {
-                          header: "Gestión de stocks",
-                          body: [
-                            "Gestión de stocks por cantidad",
-                            "Gestión de stocks por valor"
-                          ]
+                            header: "Gestión de stocks",
+                            body: [
+                                "Gestión de stocks por cantidad",
+                                "Gestión de stocks por valor"
+                            ]
                         },
                         {
-                          header: "Oferta de aprovisionamiento",
-                          body: [
-                            "Realización de aprovisionamiento a proveedores"
-                          ]
+                            header: "Oferta de aprovisionamiento",
+                            body: [
+                                "Realización de aprovisionamiento a proveedores"
+                            ]
                         },
                         {
-                          header: "Tipología del aprovisionamiento",
-                          body: [
-                            "Aprovisionamiento interno con entrega",
-                            "Aprovisionamiento interno sin entrega",
-                            "Aprovisionamiento interno multi sociedad",
-                            "Aprovisionamiento y gestión de stock en artículos de consignación",
-                            "Aprovisionamiento por stock",
-                            "Servicios de aprovisionamiento externo",
-                            "Aprovisionamiento externo",
-                            "Pedido abierto de aprovisionamiento"
-                          ]
+                            header: "Tipología del aprovisionamiento",
+                            body: [
+                                "Aprovisionamiento interno con entrega",
+                                "Aprovisionamiento interno sin entrega",
+                                "Aprovisionamiento interno multi sociedad",
+                                "Aprovisionamiento y gestión de stock en artículos de consignación",
+                                "Aprovisionamiento por stock",
+                                "Servicios de aprovisionamiento externo",
+                                "Aprovisionamiento externo",
+                                "Pedido abierto de aprovisionamiento"
+                            ]
                         },
                         {
-                          header: "Realización de diferentes procesos asociados al aprovisionamiento",
-                          body: [
-                            "Subcontratación",
-                            "Inventario físico",
-                            "Compras de consumibles",
-                            "Devolución a proveedor",
-                            "Alta de activos",
-                            "Informes"
-                          ]
+                            header: "Realización de diferentes procesos asociados al aprovisionamiento",
+                            body: [
+                                "Subcontratación",
+                                "Inventario físico",
+                                "Compras de consumibles",
+                                "Devolución a proveedor",
+                                "Alta de activos",
+                                "Informes"
+                            ]
                         }
-                      ]                                            
+                    ]
                 },
                 {
                     title: "Habilidades de gestión, personales y sociales",
@@ -1329,6 +1329,455 @@ export const ModuloMmGestionMateriales: CursoInfo = {
                 }
             ]
         },
+    ]
+}
+
+export const GestionComercioExterior: CursoInfo = {
+    title: 'Gestión del comercio exterior',
+    objetivo: 'Analizar el marco económico, político y jurídico del comercio internacional, así como identificar las principales condiciones y procesos relacionados con la compraventa internacional.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Título de Bachillerato o equivalente.",
+            "Título de Técnico Superior (FP Grado Superior) o equivalente.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Superior.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad",
+            "Certificado de profesionalidad de nivel 3.",
+            "Título de Grado o equivalente.",
+            "Título de Postgrado (Máster) o equivalente.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'MARCO ECONÓMICO, POLÍTICO Y JURÍDICO',
+            objetivo: 'Identificar el marco económico, político y jurídico del comercio internacional, así como identificar los principales obstáculos relacionados con la gestión del comercio exterior.',
+            duracion: 10,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                            header: "Descripción del marco económico, político y jurídico del comercio internacional",
+                            body: [
+                                "Distinción de comercio interior, exterior e internacional.",
+                                "Sector exterior español.",
+                                "Balanza de pagos y otras magnitudes.",
+                                "Organismos internacionales.",
+                                "Integración económica regional.",
+                                "Principales bloques económicos.",
+                                "Unión Europea."
+                            ]
+                        },
+                        {
+                            header: "Identificación de los principales obstáculos a la gestión del comercio exterior",
+                            body: [
+                                "Despachos aduaneros.",
+                                "Regímenes aduaneros en la Unión Europea.",
+                                "Barreras arancelarias.",
+                                "Barreras no arancelarias.",
+                                "Medidas de defensa comercial."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Interés por el comercio internacional.',
+                        'Asimilación de la importancia de conocer el marco económico, jurídico y político del comercio internacional.',
+                        'Capacidad analítica para comprender los factores que influyen en el comercio exterior.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "FUENTES DE LA INFORMACIÓN",
+            objetivo: "Identificar las fuentes de información clave para el comercio exterior, así como la capacidad de la empresa para afrontar los retos de la internacionalización.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Descripción de las fuentes de información del comercio internacional",
+                            body: [
+                                "Canales y fuentes de información.",
+                                "Buscadores y bases de datos online.",
+                                "Gestión de la información."
+                            ]
+                        },
+                        {
+                            header: "Identificación de las capacidades de la empresa",
+                            body: [
+                                "Localización y búsqueda de clientes/proveedores internacionales.",
+                                "Clasificación de clientes y proveedores.",
+                                "Tipos de ficheros de clientes/proveedores.",
+                                "Confección de fichas y bases de datos de clientes/proveedores.",
+                                "Control de clientes/proveedores internacionales.",
+                                "Creación de sistema de alertas de nuevos clientes/proveedores.",
+                                "Reclamaciones en las operaciones internacionales."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Reflexión del macrosistema que conforma el comercio internacional.",
+                        "Capacidad analítica para interpretar las diferentes fuentes de información del comercio internacional.",
+                        "Conciencia de las capacidades de la empresa para afrontar la internacionalización."
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "COMPRAVENTA INTERNACIONAL",
+            objetivo: "Identificar las condiciones contractuales del mercado internacional y el proceso de elaboración de ofertas.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Clasificación de las operaciones de compraventa internacional",
+                            body: [
+                                "Cláusulas generales del contrato de compraventa internacional.",
+                                "Condiciones de entrega en el comercio internacional.",
+                                "Interpretación práctica de cada Incoterm."
+                            ]
+                        },
+                        {
+                            header: "Descripción del proceso comercial en las operaciones de compraventa internacional",
+                            body: [
+                                "Oferta internacional.",
+                                "Elementos de la tarifa de precios.",
+                                "Presentación de la tarifa."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Compromiso con la aplicación adecuada de las condiciones contractuales del comercio internacional.",
+                        "Colaboración con otros departamentos u organismos para la realización de las diferentes operaciones de compraventa internacional.",
+                        "Disposición a mantenerse actualizado sobre el estado del entorno internacional."
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "GESTIÓN DE PEDIDOS Y FACTURACIÓN",
+            objetivo: "Identificar los procedimientos administrativos y contables relacionados con la gestión de pedidos y la facturación de un departamento de comercio exterior.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Descripción de los procesos de gestión de pedidos y facturación",
+                            body: [
+                                "Orden de pedido.",
+                                "Preparación del pedido.",
+                                "Lista de contenido.",
+                                "Factura proforma.",
+                                "Factura comercial."
+                            ]
+                        },
+                    ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Planificación y organización en la realización de las diferentes tareas relacionadas con la gestión de pedidos.",
+                        "Rigurosidad en la elaboración de los diferentes cálculos, documentos y procedimientos relacionados con la facturación."
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+export const GestionFiscalEmpresa: CursoInfo = {
+    title: 'Gestión fiscal de la empresa',
+    objetivo: 'Identificar las obligaciones fiscales cuando se lleva a cabo una actividad empresarial.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de Profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'SISTEMA TRIBUTARIO',
+            objetivo: 'Identificar las obligaciones tributarias según la tipología de empresa.',
+            duracion: 10,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                            header: "Análisis del sistema tributario",
+                            body: [
+                                "Funcionamiento.",
+                                "Calendario.",
+                                "Obligaciones fiscales según el tipo de empresa."
+                            ]
+                        },
+                    ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Asimilación del funcionamiento del sistema tributario español.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "OBLIGACIONES FISCALES",
+            objetivo: "Identificar las obligaciones en función de cada tributación.",
+            duracion: 30,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                          header: "Análisis de inicio de actividad",
+                          body: [
+                            "Censo de personas empresarias y retenedores.",
+                            "Impuesto de Actividades Económicas (IAE)."
+                          ]
+                        },
+                        {
+                          header: "Identificación del Impuesto sobre el Valor Añadido (IVA)",
+                          body: [
+                            "Hecho imponible y sujeto pasivo.",
+                            "Territorio de aplicación del impuesto.",
+                            "Obligaciones."
+                          ]
+                        },
+                        {
+                          header: "Explicación de las Retenciones",
+                          body: [
+                            "Rentas sujetas.",
+                            "Obligaciones."
+                          ]
+                        },
+                        {
+                          header: "Clasificación del impuesto sobre el beneficio",
+                          body: [
+                            "Impuesto de Sociedades.",
+                            "Impuesto sobre la Renta de las Personas Físicas.",
+                            "Comparativa entre ambos impuestos.",
+                            "Obligaciones."
+                          ]
+                        }
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Valoración de la importancia de hacer frente a las obligaciones tributarias de cualquier actividad empresarial.",
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
+export const FiscalidadOperativa: CursoInfo = {
+    title: 'Fiscalidad operativa',
+    objetivo: 'Describir las obligaciones tributarias en el ejercicio de una actividad profesional y empresarial.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de Profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'SISTEMA TRIBUTARIO',
+            objetivo: 'Describir el sistema tributario, el calendario de obligaciones tributarias y la identificación de las obligaciones tributarias en función de la tipología de empresa.',
+            duracion: 5,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Descripción del sistema tributario",
+                          body: [
+                            "Enumeración de las obligaciones fiscales.",
+                            "Como empresario individual.",
+                            "Como sociedad mercantil.",
+                            "Como sociedad civil.",
+                            "Como otros tipos de entidades."
+                          ]
+                        },
+                        {
+                          header: "Descripción de la AEAT (Agencia Estatal de Administración Tributaria)",
+                          body: [
+                            "Análisis de la página web.",
+                            "Gestión del Área personal.",
+                            "Definición de la DGT (Dirección General de Tributos)."
+                          ]
+                        }
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Interés por el sistema tributario y de la AEAT.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "INICIO DE LA ACTIVIDAD",
+            objetivo: "Identificar los trámites y documentos necesarios para darse de alta en el Censo de Empresarios, Profesionales y Retenedores de la AEAT, así como conocer los impuestos relacionados con el inicio de la actividad: IAE, ITP y AJD.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Descripción del censo de empresarios, profesionales y retenedores",
+                            body: [
+                              "Alta en el censo: trámites y documentos.",
+                              "Modelos fiscales.",
+                              "Modificaciones y bajas."
+                            ]
+                          },
+                          {
+                            header: "Análisis del Impuesto sobre Actividades Económicas (IAE)",
+                            body: [
+                              "Clasificación de las actividades.",
+                              "Funcionamiento del impuesto."
+                            ]
+                          },
+                          {
+                            header: "Análisis de los impuestos: ITP y AJD",
+                            body: [
+                              "Funcionamiento del impuesto.",
+                              "Transmisiones onerosas.",
+                              "Sujeción y no sujeción.",
+                              "Liquidación.",
+                              "Operaciones societarias.",
+                              "Otras operaciones."
+                            ]
+                          }
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Rigor en los trámites y documentos necesarios para iniciar una actividad económica ante la AEAT.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "ACTIVIDAD",
+            objetivo: "Localizar los impuestos a liquidar en el curso normal de la actividad y cumplir las obligaciones derivadas.",
+            duracion: 25,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Análisis del IVA",
+                            body: [
+                              "Funcionamiento del impuesto.",
+                              "Reglamento de facturación.",
+                              "Régimen General.",
+                              "TAI: operaciones de comercio exterior.",
+                              "Regímenes especiales.",
+                              "Modelos de liquidación y declaración.",
+                              "Declaraciones informativas.",
+                              "Herramientas de ayuda de la AEAT."
+                            ]
+                          },
+                          {
+                            header: "Aplicación de retenciones",
+                            body: [
+                              "Obligación de retener.",
+                              "Tipos de renta.",
+                              "Retenciones de rendimientos del trabajo.",
+                              "Retenciones de rendimientos del capital inmobiliario.",
+                              "Retenciones de rendimientos del capital mobiliario.",
+                              "Modelos de liquidación y declaración.",
+                              "Herramientas de ayuda de la AEAT."
+                            ]
+                          },
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Responsabilidad en la gestión de los trámites y los documentos necesarios durante el desarrollo de una actividad económica ante la AEAT.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "IMPUESTOS SOBRE BENEFICIOS",
+            objetivo: "Distinguir los impuestos que gravan la obtención de beneficios y comparar la tributación entre el IRPF y el IS.",
+            duracion: 20,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Análisis del Impuesto sobre Sociedades (IS)",
+                            body: [
+                              "Funcionamiento del impuesto.",
+                              "Obligaciones formales.",
+                              "Resultado contable y fiscal.",
+                              "Base imponible.",
+                              "Tipos de tributación y cuota.",
+                              "Bonificaciones y deducciones.",
+                              "Incentivos ERD.",
+                              "Liquidación y Declaración.",
+                              "Herramientas de ayuda de la AEAT."
+                            ]
+                          },
+                          {
+                            header: "Análisis del Impuesto sobre la Renta de las Personas Físicas (IRPF)",
+                            body: [
+                              "Funcionamiento del impuesto.",
+                              "Obligaciones formales.",
+                              "Estimación Directa Normal y Simplificada.",
+                              "Estimación Objetiva.",
+                              "Retenciones y pagos a cuenta.",
+                              "Liquidación y Declaración.",
+                              "Herramientas de ayuda de la AEAT."
+                            ]
+                          }
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Interés por la correcta gestión de los trámites y documentos necesarios para la declaración y la liquidación de los beneficios de la actividad económica ante la AEAT.",
+                    ]
+                }
+            ]
+        }
     ]
 }
 
