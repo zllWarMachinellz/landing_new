@@ -9,7 +9,11 @@ import {
     ModuloMmGestionMateriales,
     GestionComercioExterior,
     GestionFiscalEmpresa,
-    FiscalidadOperativa
+    FiscalidadOperativa,
+    AtencionClientePequeñoComercio,
+    AtencionVentaEstablecimientosComerciales,
+    tecnicasParaVentaHabilidadesComerciales,
+    neuromarketing
 } from "./couses-info";
 
 import {courses} from "./cursos"
@@ -58,5 +62,21 @@ export const indice = [
     {
         slug: 'fiscalidad-operativa',
         props: {content: FiscalidadOperativa, course: courses[12] }
+    },
+    {
+        slug: 'atencion-cliente-lengua-extranjera',
+        props: {content: AtencionClientePequeñoComercio, course: courses[13] }
+    },
+    {
+        slug: 'atencion-venta-establecimientos-comerciales',
+        props: {content: AtencionVentaEstablecimientosComerciales, course: courses[14] }
+    },
+    {
+        slug: 'tecnicas-ventas-habilidades-comerciales',
+        props: {content: tecnicasParaVentaHabilidadesComerciales, course: courses[15] }
+    },
+    {
+        slug: 'neuromarketing',
+        props: {content: neuromarketing, course: courses[16] }
     },
 ]
