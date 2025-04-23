@@ -201,50 +201,54 @@ export const courses: Course[] = [
     {
         id: '14',
         img: '/imgs/cursos/sectorial/sectorial-cliente-ingles.webp',
-        codigo: "[COMT0013]",
+        codigo: "COMT0013",
         name: 'Atención al cliente del pequeño comercio en lengua extranjera, Inglés',
         hours: 30,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "20-03-2025",
         end_date: "31-03-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: 'atencion-cliente-lengua-extranjera'
     },
     {
         id: '15',
         img: '/imgs/cursos/sectorial/sectorial-atencion-venta-establecimientos.webp',
-        codigo: "[COMT0017]",
+        codigo: "COMT0017",
         name: 'Atención y venta a establecimientos comerciales',
         hours: 30,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "01-04-2025",
         end_date: "11-04-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: 'atencion-venta-establecimientos-comerciales'
     },
     {
         id: '16',
         img: '/imgs/cursos/sectorial/sectorial-tecnicas-venta-habiidades-comerciales.webp',
-        codigo: "[COMT0016]",
+        codigo: "COMT0016",
         name: 'Técnicas para la venta y habilidades comerciales',
         hours: 40,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "14-04-2025",
         end_date: "28-04-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: "tecnicas-ventas-habilidades-comerciales"
     },
     {
         id: '17',
         img: '/imgs/cursos/sectorial/sectorial-neuromarketing.webp',
-        codigo: "[COMM0014]",
+        codigo: "COMM0014",
         name: 'Neuromarketing curso virtual para empleados',
         hours: 35,
         entidad_subvencion: "/imgs/logos/consorci.png",
         init_date: "31-03-2025",
         end_date: "14-04-2025",
         requirements: consorciSectorial,
-        estado: true
+        estado: true,
+        slug: "neuromarketing"
     },
     {
         id: '18',

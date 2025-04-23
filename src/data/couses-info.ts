@@ -1781,3 +1781,675 @@ export const FiscalidadOperativa: CursoInfo = {
     ]
 }
 
+export const AtencionClientePequeñoComercio: CursoInfo = {
+    title: 'Atención al cliente del pequeño comercio en lengua extranjera, Inglés',
+    objetivo: 'Utilizar la lengua inglesa para atender satisfactoriamente a la clientela en un establecimiento comercial, aplicando técnicas de venta y de comunicación eficaz.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de Profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'COMUNICACIÓN BÁSICA EN INGLÉS',
+            objetivo: 'Formular frases básicas en lengua inglesa para una comunicación eficaz con la clientela en un comercio',
+            duracion: 10,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Formulación de frases básicas",
+                          body: [
+                            "Frases positivas.",
+                            "Frases negativas.",
+                            "Frases interrogativas.",
+                            "Frases comparativas y superlativas.",
+                          ]
+                        },
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Desarrollo de habilidades de comunicación para la atención a la clientela.',
+                        'Desarrollo de habilidades de relación interpersonal para generar confianza con la clientela.',
+                        'Predisposición para mejorar la competencia lingüística en lengua inglesa.',
+                        'Actitud de seguridad ante la comunicación con el cliente en lengua inglesa.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "VENTA DE UN PRODUCTO EN INGLÉS",
+            objetivo: "Aplicar técnicas de venta, teniendo en cuenta las necesidades de la clientela y la estrategia comercial de la empresa, y utilizar la lengua inglesa.",
+            duracion: 20,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Aplicación de técnicas de venta utilizando la lengua inglesa:",
+                            body: [
+                              "Orientación al cliente",
+                              "Asesoramiento",
+                              "Objeciones",
+                              "Negociación de la venta",
+                              "Consolidación de la venta",
+                              "Cierre de la venta",
+                              "Quejas y reclamaciones",
+                            ]
+                          },
+                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Desarrollo de habilidades comerciales y de negociación para potenciar las ventas.",
+                        "Predisposición para mejorar la competencia lingüística en lengua inglesa.",
+                        "Actitud de seguridad ante la comunicación con el cliente en lengua inglesa.",
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
+export const AtencionVentaEstablecimientosComerciales: CursoInfo = {
+    title: 'Atención y venta a establecimientos comerciales',
+    objetivo: 'Aplicar las técnicas de venta adecuadas a un comercio minorista, así como desarrollar habilidades de atención a la clientela',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de Profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'CONTEXTO E IMPACTO DE LA EXPERIENCIA DE COMPRA',
+            objetivo: 'Analizar el contexto actual del comercio minorista y el impacto que puede tener la experiencia de compra sobre la clientela.',
+            duracion: 5,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Identificación del contexto del comercio al por menor y la experiencia de compra.",
+                          body: [
+                            "El cambio de paradigma en el comercio local.",
+                            "Aspectos clave para el éxito de un negocio de retail o comercio minorista.",
+                            "Principios de la atención al cliente.",
+                            "Diferencia entre experiencia de compra y experiencia de la clientela.",
+                            "Elementos que pueden potenciar o frenar una venta.",
+                          ]
+                        },
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Conciencia de la necesidad de alinear los valores de la empresa con el diseño de la experiencia de compra.',
+                        'Atención a los elementos que intervienen en el proceso de venta al por menor.',
+                        'Capacidad de análisis para detectar los elementos que potencian el proceso de compra.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "TIPOS DE CLIENTELA Y NECESIDADES DE COMPRA",
+            objetivo: "Identificar los diferentes tipos de clientela según las necesidades de compra",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Identificación de los diferentes tipos de clientela",
+                            body: [
+                              "Tipos de clientela",
+                              "Tipos de necesidades",
+                              "Comportamientos de la clientela",
+                              "Perfiles psicológicos de la clientela",
+                            ]
+                          },
+                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Curiosidad por conocer las necesidades de la clientela y adaptar el proceso de venta.",
+                        "Predisposición para acompañar a la clientela en el proceso de compra, antes, durante y después de la venta.",
+                        "Capacidad de observación para detectar correctamente las necesidades de la clientela.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "EL PROCESO DE VENTA Y LA COMUNICIÓN CON LA CLIENTELA",
+            objetivo: "Identificar los elementos clave para organizar el proceso de atención a la clientela, así como aplicar técnicas destinadas a mejorar el proceso de comunicación, cierre de ventas y atención al servicio posventa.",
+            duracion: 15,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Organización del proceso de atención a la clientela:",
+                            body: [
+                              "Proceso de atención a la clientela.",
+                              "Fases de la atención a la clientela.",
+                              "Calidad de la atención al cliente.",
+                            ]
+                          },
+                        {
+                            header: "Identificación de los aspectos clave en la comunicación con la clientela:",
+                            body: [
+                              "Habilidades interpersonales.",
+                              "Técnicas de comunicación verbal, no verbal, telefónica y escrita.",
+                              "Comportamiento asertivo y sus técnicas.",
+                              "Técnicas y procesos para la recogida de información.",
+                            ]
+                          },
+                        {
+                            header: "Gestión de los cierres de venta y los servicios posventa:",
+                            body: [
+                              "Procesos del servicio posventa.",
+                              "Proceso de negociación.",
+                              "Gestión de quejas y reclamaciones.",
+                              "Distinción entre los diferentes tipos de garantías.",
+                              "Buenas prácticas en la finalización y cierre del proceso de venta.",
+                            ]
+                          },
+                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Comprensión de los factores que generan la fidelidad del cliente.",
+                        "Desarrollo de habilidades comunicativas para ofrecer una atención de calidad al cliente.",
+                        "Desarrollo de la confianza en el proceso de venta con la clientela.",
+                        "Autocontrol ante situaciones difíciles con la clientela.",
+                        "Predisposición a seguir la estrategia comercial y de ventas de la organización.",
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
+export const tecnicasParaVentaHabilidadesComerciales: CursoInfo = {
+    title: 'Técnicas para la venta y habilidades comerciales',
+    objetivo: 'Aplicar las técnicas y utilizar las habilidades necesarias para desarrollar con éxito el proceso de venta de un producto o servicio.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de Profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'LAS NECESIDADES DE LA CLIENTELA Y LA COMUNICACIÓN',
+            objetivo: 'Identificar el tipo de clientela y sus necesidades, así como analizar el proceso de comunicación durante la venta.',
+            duracion: 10,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Descripción de los elementos que intervienen en la comunicación con la clientela:",
+                          body: [
+                            "Comunicación verbal.",
+                            "Comunicación no verbal.",
+                          ]
+                        },
+                        {
+                          header: "Análisis de la importancia del aspecto físico en un proceso de venta:",
+                          body: [
+                            "Técnicas de presentación.",
+                            "Códigos de vestimenta.",
+                          ]
+                        },
+                        {
+                          header: "Resumen de la pirámide de Maslow según las necesidades de la clientela:",
+                          body: [
+                            "Tipos de necesidades.",
+                            "Priorizar cada necesidad según el producto o el servicio.",
+                          ]
+                        },
+                        {
+                          header: "Identificación de los diferentes tipos de clientela:",
+                          body: [
+                            "Tipos de clientela.",
+                            "Características.",
+                          ]
+                        },
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Capacidad de adaptación según cada entorno de ventas y estrategia empresarial.',
+                        'Disposición para aprender nuevas técnicas de venta y atención a la clientela.',
+                        'Capacidad de análisis para utilizar preguntas según el tipo de clientela.',
+                        'Predisposición para detectar y cubrir eficazmente las necesidades de la clientela.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "LA ARGUMENTACIÓN Y LAS PREGUNTAS",
+            objetivo: "Identificar las fases del proceso de venta y formular preguntas clave y argumentaciones adecuadas para dirigir con éxito el proceso de venta.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Descripción de las fases del proceso de venta:",
+                            body: [
+                              "Fases del proceso de venta.",
+                              "Características principales de cada fase.",
+                            ]
+                          },
+                        {
+                            header: "Formulación de preguntas para la venta:",
+                            body: [
+                              "Tipos de preguntas.",
+                              "Preguntas según el tipo de clientela.",
+                            ]
+                          },
+                        {
+                            header: "Explicación de los argumentos en el proceso de comunicación para la venta:",
+                            body: [
+                              "Ficha del producto.",
+                              "Argumento de venta para cada producto.",
+                            ]
+                          },
+                        {
+                            header: "Análisis de las técnicas de exposición del producto:",
+                            body: [
+                              "Técnicas de saber escuchar.",
+                              "Preguntas para identificar necesidades.",
+                            ]
+                          },
+                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Desarrollo de habilidades comunicativas que faciliten el proceso de venta.",
+                        "Actitud positiva ante las dificultades de comunicación que puedan surgir con la clientela.",
+                        "Capacidad de escuchar a la clientela para generar confianza e identificar necesidades.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "TRATAMIENTO DE OBJECIONES",
+            objetivo: "Identificar las objeciones de la clientela, así como aplicar técnicas para reconducirlas y cerrar con éxito una venta.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Clasificación de las objeciones:",
+                            body: [
+                              "Tipos de objeciones.",
+                              "Características.",
+                            ]
+                          },
+                        {
+                            header: "Gestión de cada tipo de objeción:",
+                            body: [
+                              "Descripción de cada tipo de objeción.",
+                              "Reconducción de las objeciones.",
+                            ]
+                          },                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Actitud de atención ante las dudas de la clientela.",
+                        "Capacidad para interpretar las no conformidades de la clientela.",
+                        "Desarrollo de habilidades comunicativas que permitan la reconducción de las objeciones de la clientela.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "EL CIERRE DE LA VENTA",
+            objetivo: "Aplicar las técnicas y habilidades adecuadas para cerrar con éxito una venta.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Descripción de técnicas de presentación del precio:",
+                            body: [
+                              "Técnicas de resumen y exposición del proceso de la venta.",
+                              "Técnicas de definición del precio.",
+                            ]
+                          },
+                        {
+                            header: "Técnicas de cierre de la venta:",
+                            body: [
+                              "Tipos de técnicas.",
+                              "Requisitos para realizar el cierre.",
+                            ]
+                          },                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Capacidad de síntesis para resumir la información del proceso de venta a la clientela.",
+                        "Responsabilidad para lograr el éxito en la venta.",
+                        "Desarrollo de la capacidad de negociación ante la exposición de precios durante la venta.",
+                    ]
+                }
+            ]
+        },
+    ]
+}
+
+export const neuromarketing: CursoInfo = {
+    title: 'Neuromarketing',
+    objetivo: 'Interpretar la toma de decisiones de los clientes potenciales e influir en ella de manera efectiva.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Certificado de profesionalidad nivel 1.",
+            "Título Profesional Básico (FP Básica).",
+            "Título de Graduado en Educación Secundaria Obligatoria (ESO) o equivalente.",
+            "Título de Técnico (FP Grado Medio) o equivalente.",
+            "Certificado de Profesionalidad de nivel 2.",
+            "Haber superado la prueba de acceso a Ciclos Formativos de Grado Medio.",
+            "Haber superado cualquier prueba oficial de acceso a la Universidad.",
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'HISTORIA DEL NEUROMARKETING',
+            objetivo: 'Distinguir los usos del neuromarketing y las diferencias con el marketing convencional.',
+            duracion: 10,
+            resultados: [
+                {
+                    title: 'Conocimientos/ Capacidades cognitivas y prácticas',
+                    listas: [
+                        {
+                          header: "Introducción al Neuromarketing:",
+                          body: [
+                            "Inicios del neuromarketing.",
+                            "Herramientas para el estudio y experimentación en neuromarketing.",
+                            "La Tríada Cerebral.",
+                          ]
+                        },
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Interés por conocer cómo funciona el cerebro.',
+                        'Preocupación por cómo se toman las decisiones.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "TEORÍA DEL NEUROMARKETING",
+            objetivo: "Identificar los fundamentos del neuromarketing.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Definición de la ciencia del neuromarketing:",
+                            body: [
+                              "El origen de la neuroeconomía y del neuromarketing.",
+                              "Neuroanatomía básica aplicada al estudio del neuromarketing.",
+                              "Mecanismos cerebrales utilizados en la toma de decisiones de compra.",
+                              "Decisiones racionales y emocionales.",
+                              "Neurociencia, psicología y mitos sobre el neuromarketing.",
+                              "Técnica de eye-tracking.",
+                              "Otras técnicas de estudio utilizadas en neuroeconomía y neuromarketing.",
+                              "Neuronas, redes neuronales y neurotransmisores.",
+                              "Los sentidos del cerebro.",
+                            ]
+                          },  
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Curiosidad científica/técnica por los procesos.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "APLICACIÓN DEL NEUROMARKETING",
+            objetivo: "Aplicar técnicas y datos del neuromarketing a sus estrategias y campañas de marketing y/o a las de sus clientes.",
+            duracion: 15,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Los tres pasos del cerebro:",
+                            body: [
+                              "Pain (Dolor).",
+                              "Claim (Reclamación).",
+                              "Gain (Ganancia).",
+                            ]
+                          },
+                        {
+                            header: "El cerebro primitivo:",
+                            body: [
+                              "Diferencias entre los cerebros, las sensibilidades y el momento.",
+                              "¿Quién decide?",
+                            ]
+                          },                          
+                        {
+                            header: "Técnicas en neuromarketing:",
+                            body: [
+                              "El discurso y el copy.",
+                              "Las historias.",
+                              "Metáforas.",
+                              "Canales y formatos.",
+                              "Rebater objeciones.",
+                              "La comparativa.",
+                              "Análisis de cliente.",
+                              "Roles del comprador.",
+                            ]
+                          },                          
+                        {
+                            header: "Práctica en Neuromarketing:",
+                            body: [
+                              "En presentaciones orales.",
+                              "En comunicación escrita.",
+                              "En canales digitales.",
+                              "En entrevistas de trabajo.",
+                              "En punto de venta.",
+                            ]
+                          },                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Curiosidad por la sociología.",
+                        "Interés por la ciencia aplicada.",
+                        "Voluntad e interés por optimizar recursos.",
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+export const marketingBuscadores: CursoInfo = {
+    title: 'Marketing en buscadores: SEO, SEM y Analítica Web.',
+    objetivo: 'Llevar a cabo una analítica web adecuada mediante la utilización de las herramientas de marketing en buscadores: SEO y SEM.',
+    requisitosAlumnos: {
+        header: "Cumplir como mínimo alguno de los siguientes requisitos",
+        body: [
+            "Título de bachiller o equivalente"
+        ]
+    }
+    ,
+    modulos: [
+        {
+            titulo: 'MARKETING EN BUSCADORES: SEO, SEM Y ANALÍTICA WEB',
+            objetivo: 'Llevar a cabo una analítica web adecuada mediante la utilización de las herramientas de marketing en buscadores: SEO y SEM.',
+            duracion: 10,
+            resultados: [
+                {
+                    title: 'Conocimiento del funcionamiento de los buscadores.',
+                    listas: [
+                        {
+                          header: "Introducción al Neuromarketing:",
+                          body: [
+                            "Inicios del neuromarketing.",
+                            "Herramientas para el estudio y experimentación en neuromarketing.",
+                            "La Tríada Cerebral.",
+                          ]
+                        },
+                      ]
+                },
+                {
+                    title: 'Habilidades de gestión, personales y sociales',
+                    listas: [
+                        'Interés por conocer cómo funciona el cerebro.',
+                        'Preocupación por cómo se toman las decisiones.',
+                    ],
+                },
+            ]
+        },
+        {
+            titulo: "TEORÍA DEL NEUROMARKETING",
+            objetivo: "Identificar los fundamentos del neuromarketing.",
+            duracion: 10,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Definición de la ciencia del neuromarketing:",
+                            body: [
+                              "El origen de la neuroeconomía y del neuromarketing.",
+                              "Neuroanatomía básica aplicada al estudio del neuromarketing.",
+                              "Mecanismos cerebrales utilizados en la toma de decisiones de compra.",
+                              "Decisiones racionales y emocionales.",
+                              "Neurociencia, psicología y mitos sobre el neuromarketing.",
+                              "Técnica de eye-tracking.",
+                              "Otras técnicas de estudio utilizadas en neuroeconomía y neuromarketing.",
+                              "Neuronas, redes neuronales y neurotransmisores.",
+                              "Los sentidos del cerebro.",
+                            ]
+                          },  
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Curiosidad científica/técnica por los procesos.",
+                    ]
+                }
+            ]
+        },
+        {
+            titulo: "APLICACIÓN DEL NEUROMARKETING",
+            objetivo: "Aplicar técnicas y datos del neuromarketing a sus estrategias y campañas de marketing y/o a las de sus clientes.",
+            duracion: 15,
+            resultados: [
+                {
+                    title: "Conocimientos/ Capacidades cognitivas y prácticas",
+                    listas: [
+                        {
+                            header: "Los tres pasos del cerebro:",
+                            body: [
+                              "Pain (Dolor).",
+                              "Claim (Reclamación).",
+                              "Gain (Ganancia).",
+                            ]
+                          },
+                        {
+                            header: "El cerebro primitivo:",
+                            body: [
+                              "Diferencias entre los cerebros, las sensibilidades y el momento.",
+                              "¿Quién decide?",
+                            ]
+                          },                          
+                        {
+                            header: "Técnicas en neuromarketing:",
+                            body: [
+                              "El discurso y el copy.",
+                              "Las historias.",
+                              "Metáforas.",
+                              "Canales y formatos.",
+                              "Rebater objeciones.",
+                              "La comparativa.",
+                              "Análisis de cliente.",
+                              "Roles del comprador.",
+                            ]
+                          },                          
+                        {
+                            header: "Práctica en Neuromarketing:",
+                            body: [
+                              "En presentaciones orales.",
+                              "En comunicación escrita.",
+                              "En canales digitales.",
+                              "En entrevistas de trabajo.",
+                              "En punto de venta.",
+                            ]
+                          },                          
+                      ]
+                },
+                {
+                    title: "Habilidades de gestión, personales y sociales",
+                    listas: [
+                        "Curiosidad por la sociología.",
+                        "Interés por la ciencia aplicada.",
+                        "Voluntad e interés por optimizar recursos.",
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+
+
+
+
+
